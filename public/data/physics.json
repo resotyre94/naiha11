@@ -1,0 +1,420 @@
+{
+  "id": "physics",
+  "name": "Physics",
+  "icon": "BeakerIcon",
+  "chapters": [
+    {
+      "id": "phy-ch1",
+      "name": "Units and Measurement",
+      "description": "This chapter introduces the fundamental concepts of physical quantities, their units, dimensions, and the methods for measuring them, including an analysis of errors.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=bOQ23g3t3h4",
+        "notes": "https://byjus.com/physics/units-and-measurements-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-2-units-and-measurement/",
+        "previousYearQuestions": "https://www.toppr.com/guides/physics-formulas/previous-year-questions-on-units-and-measurements/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-2/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch1-q1",
+          "type": "mcq",
+          "question": "Which of the following is a fundamental unit in the SI system?",
+          "options": ["Newton", "Pascal", "Joule", "Ampere"],
+          "correctAnswer": "Ampere"
+        },
+        {
+          "id": "phy-ch1-q2",
+          "type": "short-answer",
+          "question": "What is the dimensional formula for Force?",
+          "correctAnswer": "[MLT^-2]"
+        },
+        {
+          "id": "phy-ch1-q3",
+          "type": "mcq",
+          "question": "The number of significant figures in 0.006900 is:",
+          "options": ["2", "4", "5", "6"],
+          "correctAnswer": "4"
+        }
+      ]
+    },
+    {
+      "id": "phy-ch2",
+      "name": "Motion in a Straight Line",
+      "description": "This chapter deals with kinematics, focusing on the concepts of displacement, velocity, acceleration, and their relationships for objects moving in a straight line.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph103.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=lUizeiaJ20k",
+        "notes": "https://byjus.com/physics/motion-in-a-straight-line-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-3-motion-in-a-straight-line/",
+        "previousYearQuestions": "https://www.selfstudys.com/books/important-questions/cbse-class-11/physics/physics-chapter-3-motion-in-a-straight-line/3661",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-3/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch2-q1",
+          "type": "mcq",
+          "question": "If a car travels half the distance with speed v1 and the other half with speed v2, its average speed is:",
+          "options": ["(v1+v2)/2", "2v1v2/(v1+v2)", "sqrt(v1v2)", "v1+v2"],
+          "correctAnswer": "2v1v2/(v1+v2)"
+        },
+        {
+          "id": "phy-ch2-q2",
+          "type": "short-answer",
+          "question": "Can an object have zero displacement but non-zero distance traveled? Give an example.",
+          "correctAnswer": "Yes. If an object returns to its starting point after moving, its displacement is zero, but the distance traveled is non-zero. For example, an athlete completing one full lap on a circular track."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch3",
+      "name": "Motion in a Plane",
+      "description": "Extending kinematics to two dimensions, this chapter introduces vectors, projectile motion, and circular motion to describe the movement of objects in a plane.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=gS-10_p_T-o",
+        "notes": "https://byjus.com/physics/motion-in-a-plane-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-4-motion-in-a-plane/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/motion-in-a-plane-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-4/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch3-q1",
+          "type": "mcq",
+          "question": "At the highest point of its trajectory, the vertical component of a projectile's velocity is:",
+          "options": ["Maximum", "Minimum", "Zero", "Equal to horizontal component"],
+          "correctAnswer": "Zero"
+        },
+        {
+          "id": "phy-ch3-q2",
+          "type": "short-answer",
+          "question": "What is uniform circular motion?",
+          "correctAnswer": "Uniform circular motion is the motion of an object in a circle at a constant speed. The direction of velocity changes at every point, so there is an acceleration (centripetal acceleration) directed towards the center of the circle."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch4",
+      "name": "Laws of Motion",
+      "description": "This chapter explains the fundamental principles governing motion, formulated by Sir Isaac Newton. It covers inertia, force, momentum, and the three laws of motion.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=hB9gZ_m9d4k",
+        "notes": "https://byjus.com/physics/laws-of-motion-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-5-laws-of-motion/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/laws-of-motion-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-5/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch4-q1",
+          "type": "mcq",
+          "question": "Inertia is the property of a body by virtue of which it cannot change its state of rest or of uniform motion along a straight line. This is stated in which of Newton's laws?",
+          "options": ["First Law", "Second Law", "Third Law", "Law of Gravitation"],
+          "correctAnswer": "First Law"
+        },
+        {
+          "id": "phy-ch4-q2",
+          "type": "short-answer",
+          "question": "State Newton's second law of motion in terms of momentum.",
+          "correctAnswer": "Newton's second law of motion states that the rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction in which the force acts."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch5",
+      "name": "Work, Energy and Power",
+      "description": "This chapter explores the concepts of work, energy in its various forms (kinetic and potential), and power. It also introduces the work-energy theorem and the principle of conservation of energy.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph106.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=iF2s3g5yasc",
+        "notes": "https://byjus.com/physics/work-energy-and-power-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-6-work-energy-and-power/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/work-energy-and-power-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-6/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch5-q1",
+          "type": "mcq",
+          "question": "The work done by a centripetal force in a uniform circular motion is always:",
+          "options": ["Positive", "Negative", "Zero", "Infinite"],
+          "correctAnswer": "Zero"
+        },
+        {
+          "id": "phy-ch5-q2",
+          "type": "short-answer",
+          "question": "State the work-energy theorem.",
+          "correctAnswer": "The work-energy theorem states that the work done by the net force acting on a body is equal to the change in its kinetic energy."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch6",
+      "name": "System of Particles and Rotational Motion",
+      "description": "This chapter deals with the motion of extended bodies. It introduces concepts like center of mass, torque, angular momentum, and moment of inertia for rotational dynamics.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=Zf-pGvAcYI0",
+        "notes": "https://byjus.com/physics/system-of-particles-and-rotational-motion-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-7-systems-of-particles-and-rotational-motion/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/rotational-motion-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-7/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch6-q1",
+          "type": "mcq",
+          "question": "The rotational analogue of mass is:",
+          "options": ["Torque", "Angular momentum", "Moment of inertia", "Angular velocity"],
+          "correctAnswer": "Moment of inertia"
+        },
+        {
+          "id": "phy-ch6-q2",
+          "type": "short-answer",
+          "question": "State the law of conservation of angular momentum.",
+          "correctAnswer": "The law of conservation of angular momentum states that if the net external torque on a system is zero, its total angular momentum remains constant."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch7",
+      "name": "Gravitation",
+      "description": "This chapter covers Newton's universal law of gravitation, explaining the force that governs planetary motion and the behavior of objects on Earth. It also discusses Kepler's laws, escape velocity, and satellites.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph108.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=S01tq2nF8l4",
+        "notes": "https://byjus.com/physics/gravitation-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-8-gravitation/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/gravitation-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-8/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch7-q1",
+          "type": "mcq",
+          "question": "The value of acceleration due to gravity (g) is maximum at the:",
+          "options": ["Equator", "Poles", "Center of the Earth", "Tropic of Cancer"],
+          "correctAnswer": "Poles"
+        },
+        {
+          "id": "phy-ch7-q2",
+          "type": "short-answer",
+          "question": "What is escape velocity?",
+          "correctAnswer": "Escape velocity is the minimum speed needed for a free, non-propelled object to escape from the gravitational influence of a massive body, that is, to achieve an infinite distance from it."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch8",
+      "name": "Mechanical Properties of Solids",
+      "description": "This chapter focuses on the elastic behavior of solid materials. It explains concepts like stress, strain, elasticity, Hooke's law, and the different moduli of elasticity.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph201.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=jex-3y_w2iI",
+        "notes": "https://byjus.com/physics/mechanical-properties-of-solids-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-9-mechanical-properties-of-solids/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/mechanical-properties-of-solids-and-fluids-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-9/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch8-q1",
+          "type": "mcq",
+          "question": "The ratio of stress to strain is known as:",
+          "options": ["Poisson's ratio", "Modulus of elasticity", "Bulk modulus", "Rigidity"],
+          "correctAnswer": "Modulus of elasticity"
+        },
+        {
+          "id": "phy-ch8-q2",
+          "type": "short-answer",
+          "question": "State Hooke's Law.",
+          "correctAnswer": "Hooke's law states that for small deformations, the stress in a body is directly proportional to the strain."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch9",
+      "name": "Mechanical Properties of Fluids",
+      "description": "This chapter explores the properties and behavior of fluids at rest and in motion. Key topics include pressure, buoyancy, Pascal's law, Bernoulli's principle, viscosity, and surface tension.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph202.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=r0vHk-t_V-c",
+        "notes": "https://byjus.com/physics/mechanical-properties-of-fluids-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-10-mechanical-properties-of-fluids/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/mechanical-properties-of-fluids-previous-year-questions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-10/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch9-q1",
+          "type": "mcq",
+          "question": "The property of a fluid to resist the relative motion between its layers is called:",
+          "options": ["Surface tension", "Viscosity", "Capillarity", "Buoyancy"],
+          "correctAnswer": "Viscosity"
+        },
+        {
+          "id": "phy-ch9-q2",
+          "type": "short-answer",
+          "question": "State Bernoulli's principle.",
+          "correctAnswer": "Bernoulli's principle states that for an incompressible, non-viscous fluid in steady flow, the sum of pressure energy, kinetic energy, and potential energy per unit volume is constant."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch10",
+      "name": "Thermal Properties of Matter",
+      "description": "This chapter discusses the effects of heat on matter. It covers temperature, thermal expansion, specific heat capacity, calorimetry, change of state, and heat transfer.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph203.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=H7pq1y-rCJI",
+        "notes": "https://byjus.com/physics/thermal-properties-of-matter-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-11-thermal-properties-of-matter/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/thermal-properties-of-matter-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-11/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch10-q1",
+          "type": "mcq",
+          "question": "Which mode of heat transfer does not require a medium?",
+          "options": ["Conduction", "Convection", "Radiation", "All require a medium"],
+          "correctAnswer": "Radiation"
+        },
+        {
+          "id": "phy-ch10-q2",
+          "type": "short-answer",
+          "question": "What is latent heat of vaporization?",
+          "correctAnswer": "The latent heat of vaporization is the amount of heat energy required to change a unit mass of a substance from the liquid state to the gaseous state at its boiling point without any change in temperature."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch11",
+      "name": "Thermodynamics",
+      "description": "This chapter introduces the fundamental principles of thermodynamics, including thermal equilibrium, the zeroth, first, and second laws of thermodynamics, heat engines, and refrigerators.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph204.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=jWzoJ4-KzS8",
+        "notes": "https://byjus.com/physics/thermodynamics-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-12-thermodynamics/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/thermodynamics-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-12/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch11-q1",
+          "type": "mcq",
+          "question": "The first law of thermodynamics is a statement of:",
+          "options": ["Conservation of heat", "Conservation of work", "Conservation of energy", "Conservation of momentum"],
+          "correctAnswer": "Conservation of energy"
+        },
+        {
+          "id": "phy-ch11-q2",
+          "type": "short-answer",
+          "question": "What is an isothermal process?",
+          "correctAnswer": "An isothermal process is a thermodynamic process in which the temperature of the system remains constant. For an ideal gas, the change in internal energy in an isothermal process is zero."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch12",
+      "name": "Kinetic Theory",
+      "description": "This chapter provides a microscopic explanation for the macroscopic properties of gases. It covers the ideal gas equation, the kinetic theory of gases, and the concept of degrees of freedom.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph205.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=X-U4k3I4tG8",
+        "notes": "https://byjus.com/physics/kinetic-theory-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-13-kinetic-theory/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/kinetic-theory-of-gases-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-13/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch12-q1",
+          "type": "mcq",
+          "question": "According to the kinetic theory of gases, the absolute temperature of a gas is proportional to the:",
+          "options": ["Average potential energy of molecules", "Average kinetic energy of molecules", "Total energy of molecules", "Volume of the gas"],
+          "correctAnswer": "Average kinetic energy of molecules"
+        },
+        {
+          "id": "phy-ch12-q2",
+          "type": "short-answer",
+          "question": "State the law of equipartition of energy.",
+          "correctAnswer": "The law of equipartition of energy states that for a dynamical system in thermal equilibrium, the total energy is shared equally among all its degrees of freedom, and the average energy associated with each degree of freedom is (1/2)kT, where k is the Boltzmann constant and T is the absolute temperature."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch13",
+      "name": "Oscillations",
+      "description": "This chapter explores periodic motion, with a special focus on simple harmonic motion (SHM). It covers oscillations of springs, simple pendulums, and damped and forced oscillations.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=b4Yp9g-qNl4",
+        "notes": "https://byjus.com/physics/oscillations-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-14-oscillations/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/oscillations-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-14/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch13-q1",
+          "type": "mcq",
+          "question": "For a simple pendulum, the time period depends on its:",
+          "options": ["Mass", "Amplitude", "Length", "Material of the bob"],
+          "correctAnswer": "Length"
+        },
+        {
+          "id": "phy-ch13-q2",
+          "type": "short-answer",
+          "question": "What are the two necessary conditions for a motion to be Simple Harmonic Motion (SHM)?",
+          "correctAnswer": "1. The restoring force must be directly proportional to the displacement from the mean position. 2. The restoring force must always be directed towards the mean position."
+        }
+      ]
+    },
+    {
+      "id": "phy-ch14",
+      "name": "Waves",
+      "description": "This chapter introduces the concept of waves as a form of energy transfer. It covers transverse and longitudinal waves, the principle of superposition, reflection of waves, beats, and the Doppler effect.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/PHYSICS-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/keph207.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=pG-y-O-w-vQ",
+        "notes": "https://byjus.com/physics/waves-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/physics/important-questions-for-class-11-physics-chapter-15-waves/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/waves-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-physics-chapter-15/"
+      },
+      "questions": [
+        {
+          "id": "phy-ch14-q1",
+          "type": "mcq",
+          "question": "Sound waves in air are an example of:",
+          "options": ["Transverse waves", "Longitudinal waves", "Electromagnetic waves", "Matter waves"],
+          "correctAnswer": "Longitudinal waves"
+        },
+        {
+          "id": "phy-ch14-q2",
+          "type": "short-answer",
+          "question": "What is the Doppler effect?",
+          "correctAnswer": "The Doppler effect is the apparent change in the frequency of a wave in relation to an observer who is moving relative to the wave source."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "id": "math",
+  "name": "Math",
+  "icon": "CalculatorIcon",
+  "chapters": [
+    {
+      "id": "math-ch1",
+      "name": "Sets",
+      "description": "This chapter introduces the concept of sets as well-defined collections of objects. It covers different types of sets, Venn diagrams, operations on sets like union and intersection, and their practical applications.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=0U72g28Ci-I",
+        "notes": "https://byjus.com/maths/sets-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-1-sets/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/sets-relations-and-functions-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-class-11-maths-chapter-1-sets/"
+      },
+      "questions": [
+        {
+          "id": "math-ch1-q1",
+          "type": "mcq",
+          "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∪ B?",
+          "options": ["{3}", "{1, 2, 3, 4, 5}", "{1, 2, 4, 5}", "{1, 2}"],
+          "correctAnswer": "{1, 2, 3, 4, 5}"
+        },
+        {
+          "id": "math-ch1-q2",
+          "type": "short-answer",
+          "question": "What is a power set? If set A has n elements, how many elements are in its power set P(A)?",
+          "correctAnswer": "The power set of a set A is the collection of all subsets of A. If A has n elements, then P(A) has 2^n elements."
+        }
+      ]
+    },
+    {
+      "id": "math-ch2",
+      "name": "Relations and Functions",
+      "description": "Building on the concept of sets, this chapter defines relations and functions. It covers Cartesian products, different types of relations and functions, their domains, codomains, and ranges.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=KzZYj-pBA5A",
+        "notes": "https://byjus.com/maths/relations-and-functions-for-class-11/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-class-11-maths-chapter-2-relations-functions/",
+        "previousYearQuestions": "https://www.toppr.com/guides/maths-formulas/relations-and-functions-previous-year-questions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-2/"
+      },
+      "questions": [
+        {
+          "id": "math-ch2-q1",
+          "type": "mcq",
+          "question": "If f(x) = x² - 3x + 2, what is the value of f(2)?",
+          "options": ["-1", "0", "1", "2"],
+          "correctAnswer": "0"
+        },
+        {
+          "id": "math-ch2-q2",
+          "type": "short-answer",
+          "question": "What is the domain of the function f(x) = 1 / (x - 5)?",
+          "correctAnswer": "The domain is all real numbers except x = 5. In set notation, it is R - {5}."
+        }
+      ]
+    },
+    {
+      "id": "math-ch3",
+      "name": "Trigonometric Functions",
+      "description": "This chapter extends the study of trigonometry to include angles in radians, trigonometric functions and their properties, graphs, and important identities. It also covers solving trigonometric equations.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh103.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=Qf2Xhs2FXuY",
+        "notes": "https://byjus.com/maths/trigonometric-functions-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-3-trigonometric-functions/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/trigonometry-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-3/"
+      },
+      "questions": [
+        {
+          "id": "math-ch3-q1",
+          "type": "mcq",
+          "question": "What is the value of sin(3π/2)?",
+          "options": ["1", "0", "-1", "1/2"],
+          "correctAnswer": "-1"
+        },
+        {
+          "id": "math-ch3-q2",
+          "type": "short-answer",
+          "question": "Convert 120 degrees to radians.",
+          "correctAnswer": "2π/3 radians"
+        }
+      ]
+    },
+    {
+      "id": "math-ch4",
+      "name": "Principle of Mathematical Induction",
+      "description": "This chapter introduces a powerful proof technique called the Principle of Mathematical Induction, used to prove statements, formulas, and theorems that are true for every natural number.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh104.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=TqkOhdF52-w",
+        "notes": "https://byjus.com/maths/principle-of-mathematical-induction-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-class-11-maths-chapter-4-principle-of-mathematical-induction/",
+        "previousYearQuestions": "https://www.selfstudys.com/books/important-questions/cbse-class-11/maths/maths-chapter-4-principle-of-mathematical-induction/1908",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-4/"
+      },
+      "questions": [
+        {
+          "id": "math-ch4-q1",
+          "type": "short-answer",
+          "question": "What are the two main steps in a proof by mathematical induction?",
+          "correctAnswer": "The two steps are: 1. Base Case: Prove the statement is true for the initial value (usually n=1). 2. Inductive Step: Assume the statement is true for an arbitrary natural number k, and then prove it is also true for k+1."
+        }
+      ]
+    },
+    {
+      "id": "math-ch5",
+      "name": "Complex Numbers and Quadratic Equations",
+      "description": "This chapter extends the number system to include complex numbers. It covers the algebra of complex numbers, the Argand plane, polar representation, and solving quadratic equations with complex roots.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh105.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=O135c9QsWvQ",
+        "notes": "https://byjus.com/maths/complex-numbers-and-quadratic-equations-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-5-complex-numbers-and-quadratic-equations/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/complex-numbers-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-class-11-maths-chapter-5-complex-numbers-quadratic-equations/"
+      },
+      "questions": [
+        {
+          "id": "math-ch5-q1",
+          "type": "mcq",
+          "question": "What is the value of i^4, where i is the imaginary unit?",
+          "options": ["i", "-1", "-i", "1"],
+          "correctAnswer": "1"
+        },
+        {
+          "id": "math-ch5-q2",
+          "type": "short-answer",
+          "question": "Find the modulus of the complex number z = 3 + 4i.",
+          "correctAnswer": "5"
+        }
+      ]
+    },
+    {
+      "id": "math-ch6",
+      "name": "Linear Inequalities",
+      "description": "This chapter deals with solving linear inequalities in one and two variables, both algebraically and graphically. It also covers systems of linear inequalities.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh106.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=3EIXf-wO43o",
+        "notes": "https://byjus.com/maths/linear-inequalities-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-class-11-maths-chapter-6-linear-inequalities/",
+        "previousYearQuestions": "https://www.toppr.com/guides/maths-linear-inequalities/previous-year-questions-on-linear-inequalities/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-6/"
+      },
+      "questions": [
+        {
+          "id": "math-ch6-q1",
+          "type": "short-answer",
+          "question": "Solve the inequality: 2x - 4 < 8",
+          "correctAnswer": "x < 6"
+        }
+      ]
+    },
+    {
+      "id": "math-ch7",
+      "name": "Permutations and Combinations",
+      "description": "This chapter introduces the fundamental principles of counting. It covers permutations (arrangements) and combinations (selections) and their applications in various problems.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh107.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=cQd_K1c-z00",
+        "notes": "https://byjus.com/maths/permutations-and-combinations-for-class-11/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-class-11-maths-chapter-7-permutations-and-combinations/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/permutation-and-combination-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-7/"
+      },
+      "questions": [
+        {
+          "id": "math-ch7-q1",
+          "type": "mcq",
+          "question": "What is the value of 5! (5 factorial)?",
+          "options": ["24", "60", "120", "720"],
+          "correctAnswer": "120"
+        },
+        {
+          "id": "math-ch7-q2",
+          "type": "short-answer",
+          "question": "In how many ways can a committee of 3 be chosen from a group of 7 people?",
+          "correctAnswer": "35 ways (Using combination formula 7C3)"
+        }
+      ]
+    },
+    {
+      "id": "math-ch8",
+      "name": "Binomial Theorem",
+      "description": "This chapter presents the Binomial Theorem for expanding binomial expressions raised to any positive integral power. It also discusses the general and middle terms in the expansion.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh108.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=0f7_f9UDi8Q",
+        "notes": "https://byjus.com/maths/binomial-theorem-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-8-binomial-theorem/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/binomial-theorem-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-8/"
+      },
+      "questions": [
+        {
+          "id": "math-ch8-q1",
+          "type": "short-answer",
+          "question": "How many terms are there in the expansion of (a + b)^8?",
+          "correctAnswer": "9 terms"
+        }
+      ]
+    },
+    {
+      "id": "math-ch9",
+      "name": "Sequences and Series",
+      "description": "This chapter deals with sequences and series, focusing on Arithmetic Progressions (A.P.), Geometric Progressions (G.P.), and the relationship between Arithmetic and Geometric Means.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh109.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=a-u_fE8utmA",
+        "notes": "https://byjus.com/maths/sequences-and-series-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-9-sequences-and-series/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/sequences-and-series-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-9/"
+      },
+      "questions": [
+        {
+          "id": "math-ch9-q1",
+          "type": "mcq",
+          "question": "What is the 10th term of the Arithmetic Progression 2, 7, 12, ...?",
+          "options": ["47", "52", "45", "50"],
+          "correctAnswer": "47"
+        },
+        {
+          "id": "math-ch9-q2",
+          "type": "short-answer",
+          "question": "Find the sum of the first 5 terms of a Geometric Progression with first term 3 and common ratio 2.",
+          "correctAnswer": "93"
+        }
+      ]
+    },
+    {
+      "id": "math-ch10",
+      "name": "Straight Lines",
+      "description": "This chapter revisits coordinate geometry, focusing on straight lines. It covers various forms of the equation of a line, the angle between two lines, and the distance of a point from a line.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh110.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=tT8O9Q-F_8c",
+        "notes": "https://byjus.com/maths/straight-lines-for-class-11/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-10-straight-lines/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/the-straight-line-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-10/"
+      },
+      "questions": [
+        {
+          "id": "math-ch10-q1",
+          "type": "mcq",
+          "question": "What is the slope of a line parallel to the y-axis?",
+          "options": ["0", "1", "-1", "Undefined"],
+          "correctAnswer": "Undefined"
+        },
+        {
+          "id": "math-ch10-q2",
+          "type": "short-answer",
+          "question": "Find the equation of a line passing through the point (2, 3) with a slope of 4.",
+          "correctAnswer": "y - 3 = 4(x - 2) or y = 4x - 5"
+        }
+      ]
+    },
+    {
+      "id": "math-ch11",
+      "name": "Conic Sections",
+      "description": "This chapter introduces conic sections: circles, parabolas, ellipses, and hyperbolas. It derives their standard equations and discusses their elementary properties.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh111.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=sUuo0j4jA-4",
+        "notes": "https://byjus.com/maths/conic-sections-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-11-conic-sections/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/conic-sections-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-11/"
+      },
+      "questions": [
+        {
+          "id": "math-ch11-q1",
+          "type": "short-answer",
+          "question": "What is the standard equation of a circle with center (h, k) and radius r?",
+          "correctAnswer": "(x - h)² + (y - k)² = r²"
+        }
+      ]
+    },
+    {
+      "id": "math-ch12",
+      "name": "Introduction to Three Dimensional Geometry",
+      "description": "This chapter extends coordinate geometry to three dimensions. It introduces the coordinate system in 3D space, distance formula, and section formula.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh112.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=t89ak-R3-V4",
+        "notes": "https://byjus.com/maths/introduction-to-three-dimensional-geometry-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-12-introduction-to-three-dimensional-geometry/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/three-dimensional-geometry-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-12/"
+      },
+      "questions": [
+        {
+          "id": "math-ch12-q1",
+          "type": "short-answer",
+          "question": "Find the distance between the points P(1, 2, 3) and Q(4, 6, 8).",
+          "correctAnswer": "sqrt(50) or 5√2"
+        }
+      ]
+    },
+    {
+      "id": "math-ch13",
+      "name": "Limits and Derivatives",
+      "description": "This chapter forms the basis of calculus, introducing the concepts of limits and derivatives. It covers the computation of limits of functions and the definition of the derivative as a rate of change.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh113.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=o6O_kY3LFWU",
+        "notes": "https://byjus.com/maths/limits-and-derivatives-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-13-limits-and-derivatives/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/limits-continuity-and-differentiability-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-13/"
+      },
+      "questions": [
+        {
+          "id": "math-ch13-q1",
+          "type": "short-answer",
+          "question": "Find the derivative of f(x) = x^3 with respect to x.",
+          "correctAnswer": "3x^2"
+        },
+        {
+          "id": "math-ch13-q2",
+          "type": "short-answer",
+          "question": "Evaluate the limit: lim (x->2) (x^2 - 4) / (x - 2)",
+          "correctAnswer": "4"
+        }
+      ]
+    },
+    {
+      "id": "math-ch14",
+      "name": "Mathematical Reasoning",
+      "description": "This chapter deals with the principles of logical reasoning in mathematics. It covers mathematically acceptable statements, logical connectives, and validating statements.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh1a1.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=oIMST2ahpSg",
+        "notes": "https://byjus.com/maths/mathematical-reasoning/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-class-11-maths-chapter-14-mathematical-reasoning/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/mathematical-reasoning-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-14/"
+      },
+      "questions": [
+        {
+          "id": "math-ch14-q1",
+          "type": "short-answer",
+          "question": "Write the negation of the statement: 'New Delhi is a city'.",
+          "correctAnswer": "New Delhi is not a city."
+        }
+      ]
+    },
+    {
+      "id": "math-ch15",
+      "name": "Statistics",
+      "description": "This chapter revisits statistics, focusing on measures of dispersion like range, mean deviation, variance, and standard deviation for both grouped and ungrouped data.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh115.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=bQ_yB-Xo30o",
+        "notes": "https://byjus.com/maths/statistics-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-for-class-11-maths-chapter-15-statistics/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/statistics-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-15/"
+      },
+      "questions": [
+        {
+          "id": "math-ch15-q1",
+          "type": "short-answer",
+          "question": "Find the mean of the data set: 2, 4, 6, 8, 10.",
+          "correctAnswer": "6"
+        }
+      ]
+    },
+    {
+      "id": "math-ch16",
+      "name": "Probability",
+      "description": "This chapter deals with probability theory, covering random experiments, sample spaces, events, and the axiomatic approach to probability.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MATHEMATICS-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kemh116.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=mD_222K0u4s",
+        "notes": "https://byjus.com/maths/probability-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/maths/important-questions-class-11-maths-chapter-16-probability/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/probability-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-maths-chapter-16/"
+      },
+      "questions": [
+        {
+          "id": "math-ch16-q1",
+          "type": "mcq",
+          "question": "What is the probability of getting a head when a fair coin is tossed?",
+          "options": ["0", "1", "1/2", "1/4"],
+          "correctAnswer": "1/2"
+        },
+        {
+          "id": "math-ch16-q2",
+          "type": "short-answer",
+          "question": "A die is rolled once. What is the probability of getting an even number?",
+          "correctAnswer": "1/2 or 0.5"
+        }
+      ]
+    }
+  ]
+}

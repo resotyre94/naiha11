@@ -1,0 +1,27 @@
+
+{
+  "importantChapters": [
+    { "chapter": "Laws of Motion (Physics)", "reason": "High weightage in previous years, fundamental concepts." },
+    { "chapter": "Thermodynamics (Chemistry)", "reason": "Frequently asked in both objective and descriptive questions." },
+    { "chapter": "Sets, Relations & Functions (Math)", "reason": "Forms the basis for many other chapters in calculus." }
+  ],
+  "questionTypes": [
+    { "type": "Multiple Choice Questions (MCQ)", "description": "Focus on conceptual clarity. Often tricky." },
+    { "type": "Very Short Answer (VSA)", "description": "1-2 mark questions testing definitions and basic formulas." },
+    { "type": "Short Answer (SA)", "description": "3-4 mark questions requiring derivations or short explanations." },
+    { "type": "Long Answer (LA)", "description": "5-mark questions, usually with internal choices. Tests in-depth understanding." }
+  ],
+  "weightage": [
+    { "chapter": "Physics - Kinematics", "percentage": 15 },
+    { "chapter": "Physics - Dynamics", "percentage": 20 },
+    { "chapter": "Chemistry - Basic Concepts", "percentage": 10 },
+    { "chapter": "Chemistry - States of Matter", "percentage": 12 },
+    { "chapter": "Math - Algebra", "percentage": 30 },
+    { "chapter": "Biology - Cell Biology", "percentage": 25 }
+  ],
+  "modelPapers": [
+    { "name": "Kerala Plus One Model Paper 2023", "url": "https://byjus.com/kerala-board/kerala-plus-one-model-question-papers/", "type": "pdf" },
+    { "name": "Previous Year Question Papers", "url": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/", "type": "pdf" },
+    { "name": "Sample Text-Based Questions", "url": "https://byjus.com/kerala-board/important-questions-for-kerala-plus-one/", "type": "text" }
+  ]
+}

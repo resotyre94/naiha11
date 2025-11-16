@@ -1,0 +1,413 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry",
+  "icon": "FireIcon",
+  "chapters": [
+    {
+      "id": "chem-ch1",
+      "name": "Some Basic Concepts of Chemistry",
+      "description": "This foundational chapter introduces the importance of chemistry, the nature of matter, properties of matter and their measurement, uncertainty in measurement, laws of chemical combinations, Dalton's atomic theory, and concepts of atoms, molecules, mole concept, and stoichiometry.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=z8f4Q0sT-jI",
+        "notes": "https://byjus.com/chemistry/some-basic-concepts-of-chemistry-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-1-some-basic-concepts-of-chemistry/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/some-basic-concepts-of-chemistry-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-1/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch1-q1",
+          "type": "mcq",
+          "question": "The number of moles of solute present in 1 kg of a solvent is called its:",
+          "options": ["Molarity", "Molality", "Normality", "Formality"],
+          "correctAnswer": "Molality"
+        },
+        {
+          "id": "chem-ch1-q2",
+          "type": "short-answer",
+          "question": "State Avogadro's Law.",
+          "correctAnswer": "Avogadro's law states that equal volumes of all gases, at the same temperature and pressure, have the same number of molecules."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch2",
+      "name": "Structure of Atom",
+      "description": "This chapter delves into the discovery of subatomic particles, atomic models (Thomson, Rutherford, Bohr), and the development of the quantum mechanical model of the atom, including quantum numbers, orbitals, and electronic configuration.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=E-1zD4hXGMA",
+        "notes": "https://byjus.com/chemistry/structure-of-atom-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-2-structure-of-atom/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/structure-of-atom-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-2/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch2-q1",
+          "type": "mcq",
+          "question": "The Azimuthal quantum number (l) for a p-orbital is:",
+          "options": ["0", "1", "2", "3"],
+          "correctAnswer": "1"
+        },
+        {
+          "id": "chem-ch2-q2",
+          "type": "short-answer",
+          "question": "State Heisenberg's Uncertainty Principle.",
+          "correctAnswer": "Heisenberg's Uncertainty Principle states that it is impossible to determine simultaneously, with high precision, both the position and the momentum of an electron or any other particle."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch3",
+      "name": "Classification of Elements and Periodicity in Properties",
+      "description": "This chapter traces the historical development of the periodic table and explains the modern periodic law. It discusses the periodic trends in physical and chemical properties of elements.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech103.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=gYw40vSjJ7s",
+        "notes": "https://byjus.com/chemistry/classification-of-elements-and-periodicity-in-properties-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-3-classification-of-elements-and-periodicity-in-properties/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/classification-of-elements-and-periodicity-in-properties-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-3/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch3-q1",
+          "type": "mcq",
+          "question": "Which of the following elements has the highest electron affinity?",
+          "options": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+          "correctAnswer": "Chlorine"
+        },
+        {
+          "id": "chem-ch3-q2",
+          "type": "short-answer",
+          "question": "Why is the first ionization enthalpy of Nitrogen greater than that of Oxygen?",
+          "correctAnswer": "Nitrogen has a stable, half-filled p-orbital electronic configuration (2p³), which requires more energy to remove an electron compared to Oxygen (2p⁴)."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch4",
+      "name": "Chemical Bonding and Molecular Structure",
+      "description": "This chapter covers the various theories of chemical bonding, including valence bond theory, VSEPR theory, and molecular orbital theory, to explain the formation of molecules and their shapes.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech104.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=1T8c4a_TUbs",
+        "notes": "https://byjus.com/chemistry/chemical-bonding-and-molecular-structure-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-4-chemical-bonding-and-molecular-structure/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/chemical-bonding-and-molecular-structure-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-4/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch4-q1",
+          "type": "mcq",
+          "question": "What is the shape of the methane (CH4) molecule according to VSEPR theory?",
+          "options": ["Linear", "Trigonal Planar", "Tetrahedral", "Octahedral"],
+          "correctAnswer": "Tetrahedral"
+        },
+        {
+          "id": "chem-ch4-q2",
+          "type": "short-answer",
+          "question": "What is hydrogen bonding? Give an example.",
+          "correctAnswer": "Hydrogen bonding is the electrostatic attraction between a hydrogen atom covalently bonded to a highly electronegative atom (like N, O, or F) and another nearby electronegative atom. An example is the bonding between water (H2O) molecules."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch5",
+      "name": "States of Matter",
+      "description": "This chapter explores the properties and behavior of the three states of matter: gases, liquids, and solids. It covers gas laws, the ideal gas equation, and intermolecular forces.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech105.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=sV_eC-pDq_k",
+        "notes": "https://byjus.com/chemistry/states-of-matter-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-5-states-of-matter/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/states-of-matter-and-solutions-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-5/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch5-q1",
+          "type": "mcq",
+          "question": "According to Boyle's Law, at constant temperature, the pressure of a fixed amount of gas varies inversely with its:",
+          "options": ["Volume", "Density", "Mass", "Temperature"],
+          "correctAnswer": "Volume"
+        },
+        {
+          "id": "chem-ch5-q2",
+          "type": "short-answer",
+          "question": "What is an ideal gas?",
+          "correctAnswer": "An ideal gas is a theoretical gas composed of randomly moving, non-interacting point particles. It obeys the ideal gas law (PV = nRT) under all conditions of temperature and pressure."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch6",
+      "name": "Thermodynamics",
+      "description": "This chapter introduces the fundamental concepts of thermodynamics, including system and surroundings, types of processes, and the first, second, and third laws of thermodynamics, along with enthalpy, entropy, and Gibbs free energy.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech106.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=gS8wT4W0QTM",
+        "notes": "https://byjus.com/chemistry/thermodynamics-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-6-thermodynamics/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/thermodynamics-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-6/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch6-q1",
+          "type": "mcq",
+          "question": "For a spontaneous process, the change in Gibbs free energy (ΔG) is:",
+          "options": ["Positive", "Negative", "Zero", "Infinite"],
+          "correctAnswer": "Negative"
+        },
+        {
+          "id": "chem-ch6-q2",
+          "type": "short-answer",
+          "question": "State Hess's Law of Constant Heat Summation.",
+          "correctAnswer": "Hess's Law states that the total enthalpy change for a reaction is the same, whether the reaction takes place in one step or in a series of steps."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch7",
+      "name": "Equilibrium",
+      "description": "This chapter deals with physical and chemical equilibria. It covers the law of mass action, equilibrium constant, Le Chatelier's principle, and concepts of acids, bases, pH, and buffer solutions.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-I-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech107.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=2rSiD0MvWcI",
+        "notes": "https://byjus.com/chemistry/equilibrium-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-7-equilibrium/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/equilibrium-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-7/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch7-q1",
+          "type": "mcq",
+          "question": "A solution with a pH of 3 is considered:",
+          "options": ["Acidic", "Basic", "Neutral", "Amphoteric"],
+          "correctAnswer": "Acidic"
+        },
+        {
+          "id": "chem-ch7-q2",
+          "type": "short-answer",
+          "question": "State Le Chatelier's principle.",
+          "correctAnswer": "Le Chatelier's principle states that if a change of concentration, temperature, or pressure is applied to a system in equilibrium, the equilibrium will shift in a direction that counteracts the change."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch8",
+      "name": "Redox Reactions",
+      "description": "This chapter explains oxidation and reduction reactions (redox reactions), including concepts of oxidation number, and balancing redox reactions using different methods.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech201.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=gL9SFcM55aI",
+        "notes": "https://byjus.com/chemistry/redox-reactions-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-8-redox-reactions/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/redox-reactions-and-electrochemistry-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-8/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch8-q1",
+          "type": "mcq",
+          "question": "In the reaction 2Mg + O2 -> 2MgO, Magnesium undergoes:",
+          "options": ["Oxidation", "Reduction", "Neither oxidation nor reduction", "Decomposition"],
+          "correctAnswer": "Oxidation"
+        },
+        {
+          "id": "chem-ch8-q2",
+          "type": "short-answer",
+          "question": "What is the oxidation number of Mn in KMnO4?",
+          "correctAnswer": "+7"
+        }
+      ]
+    },
+    {
+      "id": "chem-ch9",
+      "name": "Hydrogen",
+      "description": "This chapter discusses the unique position of hydrogen in the periodic table, its isotopes, preparation, properties, and uses. It also covers water, heavy water, and hydrogen peroxide.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech202.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=v0Lz33m1W-Y",
+        "notes": "https://byjus.com/chemistry/hydrogen-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-9-hydrogen/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/hydrogen-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-9/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch9-q1",
+          "type": "mcq",
+          "question": "Which isotope of hydrogen is radioactive?",
+          "options": ["Protium", "Deuterium", "Tritium", "All of them"],
+          "correctAnswer": "Tritium"
+        },
+        {
+          "id": "chem-ch9-q2",
+          "type": "short-answer",
+          "question": "What is meant by 'hardness of water'?",
+          "correctAnswer": "Hardness of water is the property that prevents the formation of lather with soap, caused by the presence of dissolved bicarbonates, chlorides, and sulphates of calcium and magnesium."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch10",
+      "name": "The s-Block Elements",
+      "description": "This chapter focuses on the elements of Group 1 (alkali metals) and Group 2 (alkaline earth metals), discussing their electronic configuration, properties, and the characteristics of their important compounds.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech203.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=3yY5pC42I2Y",
+        "notes": "https://byjus.com/chemistry/s-block-elements-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-10-the-s-block-elements/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/s-block-elements-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-10/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch10-q1",
+          "type": "mcq",
+          "question": "Which of the following alkali metals has the highest reactivity?",
+          "options": ["Li", "Na", "K", "Cs"],
+          "correctAnswer": "Cs"
+        },
+        {
+          "id": "chem-ch10-q2",
+          "type": "short-answer",
+          "question": "Why are alkaline earth metals harder and denser than alkali metals?",
+          "correctAnswer": "Alkaline earth metals have stronger metallic bonding due to the presence of two valence electrons compared to the one valence electron in alkali metals, making them harder and denser."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch11",
+      "name": "The p-Block Elements",
+      "description": "This chapter covers the elements of Group 13 and Group 14 of the periodic table, detailing their general properties, trends, and the chemistry of their important compounds.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech204.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=0kUj-t-4_pI",
+        "notes": "https://byjus.com/chemistry/p-block-elements-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-11-the-p-block-elements/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/p-block-elements-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-11/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch11-q1",
+          "type": "mcq",
+          "question": "The ability of an element to form long chains with itself is called:",
+          "options": ["Catenation", "Allotropy", "Isomerism", "Sublimation"],
+          "correctAnswer": "Catenation"
+        },
+        {
+          "id": "chem-ch11-q2",
+          "type": "short-answer",
+          "question": "What are fullerenes? Name the most common fullerene.",
+          "correctAnswer": "Fullerenes are allotropes of carbon that have a cage-like structure. The most common fullerene is Buckminsterfullerene (C60)."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch12",
+      "name": "Organic Chemistry: Some Basic Principles and Techniques",
+      "description": "This chapter lays the foundation for organic chemistry, covering nomenclature, isomerism, fundamental concepts in reaction mechanisms, and methods of purification and analysis of organic compounds.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech205.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=3u_sHj-ovSg",
+        "notes": "https://byjus.com/chemistry/organic-chemistry-some-basic-principles-and-techniques-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-12-organic-chemistry-some-basic-principles-and-techniques/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/general-organic-chemistry-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-12/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch12-q1",
+          "type": "mcq",
+          "question": "Which of the following is an electrophile?",
+          "options": ["H2O", "NH3", "BF3", "OH-"],
+          "correctAnswer": "BF3"
+        },
+        {
+          "id": "chem-ch12-q2",
+          "type": "short-answer",
+          "question": "What is the difference between a nucleophile and an electrophile?",
+          "correctAnswer": "A nucleophile is an electron-rich species that donates an electron pair to form a chemical bond. An electrophile is an electron-deficient species that accepts an electron pair."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch13",
+      "name": "Hydrocarbons",
+      "description": "This chapter explores the chemistry of hydrocarbons, including alkanes, alkenes, alkynes, and aromatic hydrocarbons. It covers their preparation, properties, and chemical reactions.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech206.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=mYvO6T5l_T0",
+        "notes": "https://byjus.com/chemistry/hydrocarbons-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-13-hydrocarbons/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/hydrocarbons-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-13/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch13-q1",
+          "type": "mcq",
+          "question": "Which rule is used to predict the major product in the addition of an unsymmetrical reagent to an unsymmetrical alkene?",
+          "options": ["Hund's Rule", "Markovnikov's Rule", "Aufbau Principle", "Huckel's Rule"],
+          "correctAnswer": "Markovnikov's Rule"
+        },
+        {
+          "id": "chem-ch13-q2",
+          "type": "short-answer",
+          "question": "What is aromaticity? Give the conditions for a compound to be aromatic.",
+          "correctAnswer": "Aromaticity is a property of cyclic, planar structures with a ring of resonance bonds that gives increased stability. Conditions are: cyclic, planar, completely conjugated, and follows Huckel's rule (4n+2 π electrons)."
+        }
+      ]
+    },
+    {
+      "id": "chem-ch14",
+      "name": "Environmental Chemistry",
+      "description": "This chapter deals with the chemistry of the environment, focusing on air, water, and soil pollution, their causes, effects, and methods to control them, including topics like acid rain and the greenhouse effect.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/CHEMISTRY-II-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kech207.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=l_uTMG0w0eA",
+        "notes": "https://byjus.com/chemistry/environmental-chemistry-class-11-notes/",
+        "practiceQuestions": "https://byjus.com/chemistry/important-questions-for-class-11-chemistry-chapter-14-environmental-chemistry/",
+        "previousYearQuestions": "https://byjus.com/jee-questions/environmental-chemistry-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-chemistry-chapter-14/"
+      },
+      "questions": [
+        {
+          "id": "chem-ch14-q1",
+          "type": "mcq",
+          "question": "Which gas is primarily responsible for the depletion of the ozone layer?",
+          "options": ["CO2", "SO2", "CFCs", "CH4"],
+          "correctAnswer": "CFCs"
+        },
+        {
+          "id": "chem-ch14-q2",
+          "type": "short-answer",
+          "question": "What is acid rain and what are its main causes?",
+          "correctAnswer": "Acid rain is any form of precipitation with high levels of nitric and sulfuric acids. It is mainly caused by emissions of sulfur dioxide (SO2) and nitrogen oxides (NOx) from burning fossil fuels."
+        }
+      ]
+    }
+  ]
+}

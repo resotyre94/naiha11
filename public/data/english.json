@@ -1,0 +1,56 @@
+
+{
+  "id": "english",
+  "name": "English",
+  "icon": "LanguageIcon",
+  "chapters": [
+    {
+      "id": "eng-ch1",
+      "name": "Unit 1: Glimpses of Greatness",
+      "studyLinks": [
+        { "name": "NCERT Textbook 'Hornbill'", "url": "https://ncert.nic.in/textbook.php?kehb1=0-5", "type": "ncert" },
+        { "name": "Tenses Rules Chart", "url": "https://www.apluseducare.in/2021/08/plus-one-english-notes-pdf.html", "type": "kerala-resource" },
+        { "name": "Reported Speech Explained (Video)", "url": "https://www.youtube.com/watch?v=J34a4T5aWq4", "type": "youtube" }
+      ],
+      "questions": [
+        {
+          "id": "eng-q1",
+          "type": "mcq",
+          "question": "Choose the correct form of the verb: The earth ___ around the sun.",
+          "options": ["move", "moves", "moved", "is moving"],
+          "correctAnswer": "moves"
+        },
+        {
+          "id": "eng-q2",
+          "type": "short-answer",
+          "question": "Change the following sentence into passive voice: 'She wrote a letter.'",
+          "correctAnswer": "A letter was written by her."
+        }
+      ]
+    },
+    {
+      "id": "eng-ch2",
+      "name": "Unit 2: The Saga of Progress",
+      "studyLinks": [
+        { "name": "Poem 'The Voice of the Rain'", "url": "https://ncert.nic.in/textbook/pdf/kehb103.pdf", "type": "ncert" },
+        { "name": "Figures of Speech Guide", "url": "https://literarydevices.net/", "type": "kerala-resource" },
+        { "name": "Letter Writing Format (Video)", "url": "https://www.youtube.com/watch?v=33-bMv-eTj4", "type": "youtube" }
+      ],
+      "questions": [
+        {
+          "id": "eng-q3",
+          "type": "mcq",
+          "question": "Identify the figure of speech in 'The wind whispered through the trees.'",
+          "options": ["Metaphor", "Simile", "Personification", "Hyperbole"],
+          "correctAnswer": "Personification"
+        },
+        {
+          "id": "eng-q4",
+          "type": "long-answer",
+          "question": "Write a short paragraph on the central idea of the poem 'A Photograph' by Shirley Toulson.",
+          "correctAnswer": "The poem 'A Photograph' by Shirley Toulson reflects on the themes of loss, memory, and the transience of life. The poet looks at an old photograph of her mother's childhood sea holiday and reminisces about her mother's laughter. After her mother's death, the photograph becomes a poignant reminder of her loss. The poem beautifully captures the contrast between the permanence of the sea and the fleeting nature of human life."
+        }
+      ]
+    }
+  ]
+}

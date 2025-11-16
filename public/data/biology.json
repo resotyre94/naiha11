@@ -1,0 +1,547 @@
+{
+  "id": "biology",
+  "name": "Biology",
+  "icon": "SparklesIcon",
+  "chapters": [
+    {
+      "id": "bio-ch1",
+      "name": "The Living World",
+      "description": "This chapter introduces the concept of what 'living' is and explores the diversity of living organisms. It covers taxonomy, systematics, and the rules of binomial nomenclature for naming species.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=p4TO-nC-6-k",
+        "notes": "https://byjus.com/biology/the-living-world-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-1-the-living-world/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/the-living-world-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-1/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch1-q1",
+          "type": "mcq",
+          "question": "Who is known as the Father of Taxonomy?",
+          "options": ["Aristotle", "Carolus Linnaeus", "Charles Darwin", "Gregor Mendel"],
+          "correctAnswer": "Carolus Linnaeus"
+        },
+        {
+          "id": "bio-ch1-q2",
+          "type": "short-answer",
+          "question": "What is binomial nomenclature?",
+          "correctAnswer": "Binomial nomenclature is the system of providing organisms with appropriate and distinct names consisting of two words, the first being the generic name and the second the specific name."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch2",
+      "name": "Biological Classification",
+      "description": "This chapter details the major systems of classifying organisms, focusing on the Five Kingdom Classification proposed by R.H. Whittaker. It describes the characteristics of Kingdoms Monera, Protista, Fungi, Plantae, and Animalia.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=p5r9A322iRk",
+        "notes": "https://byjus.com/biology/biological-classification-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-2-biological-classification/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/biological-classification-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-2/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch2-q1",
+          "type": "mcq",
+          "question": "In the Five Kingdom Classification, which kingdom includes prokaryotic organisms?",
+          "options": ["Protista", "Fungi", "Monera", "Plantae"],
+          "correctAnswer": "Monera"
+        },
+        {
+          "id": "bio-ch2-q2",
+          "type": "short-answer",
+          "question": "What are the three main components of a virus?",
+          "correctAnswer": "A virus is primarily composed of genetic material (DNA or RNA), a protein coat called a capsid, and sometimes an outer envelope of lipids."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch3",
+      "name": "Plant Kingdom",
+      "description": "This chapter covers the classification of plants, including Algae, Bryophytes, Pteridophytes, Gymnosperms, and Angiosperms. It explains their life cycles and distinguishing features.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo103.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=hBHP-pPUh8E",
+        "notes": "https://byjus.com/biology/plant-kingdom-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-3-plant-kingdom/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/plant-kingdom-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-3/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch3-q1",
+          "type": "mcq",
+          "question": "Which group of plants are called 'amphibians of the plant kingdom'?",
+          "options": ["Algae", "Bryophytes", "Pteridophytes", "Gymnosperms"],
+          "correctAnswer": "Bryophytes"
+        },
+        {
+          "id": "bio-ch3-q2",
+          "type": "short-answer",
+          "question": "What is double fertilization?",
+          "correctAnswer": "Double fertilization is a complex fertilization mechanism of flowering plants (angiosperms). It involves the joining of a female gametophyte (megagametophyte, also called the embryo sac) with two male gametes (sperm)."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch4",
+      "name": "Animal Kingdom",
+      "description": "This chapter provides a comprehensive overview of the classification of animals, detailing the features of different phyla from Porifera to Chordata, based on their level of organization, symmetry, and other characteristics.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo104.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=uCgFB32zYgU",
+        "notes": "https://byjus.com/biology/animal-kingdom-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-4-animal-kingdom/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/animal-kingdom-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-4/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch4-q1",
+          "type": "mcq",
+          "question": "Which phylum is characterized by the presence of a water vascular system?",
+          "options": ["Arthropoda", "Mollusca", "Echinodermata", "Annelida"],
+          "correctAnswer": "Echinodermata"
+        },
+        {
+          "id": "bio-ch4-q2",
+          "type": "short-answer",
+          "question": "What is the difference between diploblastic and triploblastic animals?",
+          "correctAnswer": "Diploblastic animals have cells arranged in two embryonic layers (ectoderm and endoderm), e.g., Coelenterata. Triploblastic animals have three layers (ectoderm, mesoderm, and endoderm), e.g., Platyhelminthes to Chordates."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch5",
+      "name": "Morphology of Flowering Plants",
+      "description": "This chapter deals with the study of the external structure of flowering plants, including the root, stem, leaf, inflorescence, flower, fruit, and seed, along with their modifications and functions.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo105.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=R9j-k-aZ_3k",
+        "notes": "https://byjus.com/biology/morphology-of-flowering-plants-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-5-morphology-of-flowering-plants/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/morphology-of-flowering-plants-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-5/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch5-q1",
+          "type": "mcq",
+          "question": "The arrangement of flowers on the floral axis is termed as:",
+          "options": ["Venation", "Phyllotaxy", "Aestivation", "Inflorescence"],
+          "correctAnswer": "Inflorescence"
+        },
+        {
+          "id": "bio-ch5-q2",
+          "type": "short-answer",
+          "question": "What is a modified stem that helps in photosynthesis in desert plants called?",
+          "correctAnswer": "It is called a phylloclade. It is a flattened stem that is green and photosynthetic."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch6",
+      "name": "Anatomy of Flowering Plants",
+      "description": "This chapter focuses on the internal structure and organization of flowering plants. It covers different types of tissues, tissue systems, and the anatomy of the root, stem, and leaf in dicots and monocots.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo106.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=zJ4-IdA7C9M",
+        "notes": "https://byjus.com/biology/anatomy-of-flowering-plants-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-6-anatomy-of-flowering-plants/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/anatomy-of-flowering-plants-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-6/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch6-q1",
+          "type": "mcq",
+          "question": "Which plant tissue is responsible for the transport of water and minerals?",
+          "options": ["Phloem", "Xylem", "Parenchyma", "Collenchyma"],
+          "correctAnswer": "Xylem"
+        },
+        {
+          "id": "bio-ch6-q2",
+          "type": "short-answer",
+          "question": "What are bulliform cells and what is their function?",
+          "correctAnswer": "Bulliform cells are large, bubble-shaped epidermal cells on the upper surface of monocot leaves. They help in the rolling and unrolling of leaves in response to water availability, thus preventing water loss."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch7",
+      "name": "Structural Organisation in Animals",
+      "description": "This chapter describes the different types of animal tissues (epithelial, connective, muscular, and neural) and the morphology and anatomy of three representative animals: earthworm, cockroach, and frog.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo107.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=kRj2YBCg-eM",
+        "notes": "https://byjus.com/biology/structural-organisation-in-animals-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-7-structural-organisation-in-animals/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/structural-organisation-in-animals-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-7/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch7-q1",
+          "type": "mcq",
+          "question": "Which type of connective tissue connects bones to other bones?",
+          "options": ["Tendon", "Ligament", "Cartilage", "Adipose tissue"],
+          "correctAnswer": "Ligament"
+        },
+        {
+          "id": "bio-ch7-q2",
+          "type": "short-answer",
+          "question": "Name the four types of tissues found in animals.",
+          "correctAnswer": "The four types of animal tissues are Epithelial tissue, Connective tissue, Muscular tissue, and Nervous tissue."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch8",
+      "name": "Cell: The Unit of Life",
+      "description": "This chapter provides a detailed view of the cell, its discovery, and cell theory. It covers the structure and functions of various cell organelles in both prokaryotic and eukaryotic cells.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo108.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=zD_a1I-sKoU",
+        "notes": "https://byjus.com/biology/cell-the-unit-of-life-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-8-cell-the-unit-of-life/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/cell-the-unit-of-life-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-8/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch8-q1",
+          "type": "mcq",
+          "question": "Which organelle is known as the 'powerhouse of the cell'?",
+          "options": ["Nucleus", "Ribosome", "Mitochondrion", "Golgi apparatus"],
+          "correctAnswer": "Mitochondrion"
+        },
+        {
+          "id": "bio-ch8-q2",
+          "type": "short-answer",
+          "question": "What is the main function of ribosomes?",
+          "correctAnswer": "The main function of ribosomes is protein synthesis. They are the sites where genetic information from mRNA is translated into proteins."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch9",
+      "name": "Biomolecules",
+      "description": "This chapter explores the chemical composition of living tissues, detailing the structure and function of various biomolecules like proteins, carbohydrates, lipids, and nucleic acids, as well as the concept of enzymes.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo109.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=j35f5-aV2_0",
+        "notes": "https://byjus.com/biology/biomolecules-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-9-biomolecules/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/biomolecules-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-9/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch9-q1",
+          "type": "mcq",
+          "question": "Proteins are polymers of:",
+          "options": ["Glucose", "Fatty acids", "Amino acids", "Nucleotides"],
+          "correctAnswer": "Amino acids"
+        },
+        {
+          "id": "bio-ch9-q2",
+          "type": "short-answer",
+          "question": "What are enzymes?",
+          "correctAnswer": "Enzymes are biological catalysts, which are proteins that speed up biochemical reactions in living organisms without being consumed in the process."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch10",
+      "name": "Cell Cycle and Cell Division",
+      "description": "This chapter describes the events of the cell cycle and the processes of cell division, mitosis, and meiosis. It explains the significance of these processes in the life of an organism.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo110.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=uWlVxgKkKDo",
+        "notes": "https://byjus.com/biology/cell-cycle-and-cell-division-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-10-cell-cycle-and-cell-division/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/cell-cycle-and-cell-division-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-10/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch10-q1",
+          "type": "mcq",
+          "question": "In which phase of the cell cycle does DNA replication occur?",
+          "options": ["G1 phase", "S phase", "G2 phase", "M phase"],
+          "correctAnswer": "S phase"
+        },
+        {
+          "id": "bio-ch10-q2",
+          "type": "short-answer",
+          "question": "What is the significance of meiosis?",
+          "correctAnswer": "Meiosis is significant because it produces gametes for sexual reproduction, reduces the chromosome number by half to maintain a constant number in the species, and introduces genetic variation through crossing over."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch11",
+      "name": "Transport in Plants",
+      "description": "This chapter explains the mechanisms of water, mineral, and food transport within plants. It covers diffusion, osmosis, water potential, ascent of sap, and translocation.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo111.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=hG3wbhOhhJ0",
+        "notes": "https://byjus.com/biology/transport-in-plants-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-11-transport-in-plants/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/transport-in-plants-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-11/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch11-q1",
+          "type": "mcq",
+          "question": "The loss of water in the form of vapor from the aerial parts of a plant is known as:",
+          "options": ["Guttation", "Transpiration", "Respiration", "Bleeding"],
+          "correctAnswer": "Transpiration"
+        },
+        {
+          "id": "bio-ch11-q2",
+          "type": "short-answer",
+          "question": "What is water potential?",
+          "correctAnswer": "Water potential is the potential energy of water per unit volume relative to pure water in reference conditions. It quantifies the tendency of water to move from one area to another due to osmosis, gravity, mechanical pressure, or matrix effects."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch12",
+      "name": "Mineral Nutrition",
+      "description": "This chapter deals with the essential minerals required by plants, their roles, deficiency symptoms, and the mechanism of mineral absorption. It also covers the nitrogen cycle.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo112.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=r0X-m2jY_ik",
+        "notes": "https://byjus.com/biology/mineral-nutrition-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-12-mineral-nutrition/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/mineral-nutrition-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-12/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch12-q1",
+          "type": "mcq",
+          "question": "Which of the following is a macronutrient for plants?",
+          "options": ["Iron", "Manganese", "Nitrogen", "Zinc"],
+          "correctAnswer": "Nitrogen"
+        },
+        {
+          "id": "bio-ch12-q2",
+          "type": "short-answer",
+          "question": "What is nitrogen fixation?",
+          "correctAnswer": "Nitrogen fixation is the process by which atmospheric nitrogen (N2) is converted into ammonia (NH3) or other nitrogenous compounds, which can be taken up by plants. It is carried out by certain bacteria like Rhizobium."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch13",
+      "name": "Photosynthesis in Higher Plants",
+      "description": "This chapter covers the process of photosynthesis, including the site of photosynthesis, pigments involved, the light and dark reactions, and factors affecting the rate of photosynthesis.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo113.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=gDwL22Z4_aI",
+        "notes": "https://byjus.com/biology/photosynthesis-in-higher-plants-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-13-photosynthesis-in-higher-plants/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/photosynthesis-in-higher-plants-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-13/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch13-q1",
+          "type": "mcq",
+          "question": "The light-independent reactions of photosynthesis (Calvin cycle) occur in the:",
+          "options": ["Thylakoid membrane", "Stroma of chloroplast", "Cytoplasm", "Mitochondria"],
+          "correctAnswer": "Stroma of chloroplast"
+        },
+        {
+          "id": "bio-ch13-q2",
+          "type": "short-answer",
+          "question": "What are the end products of the light-dependent reactions of photosynthesis?",
+          "correctAnswer": "The end products of the light-dependent reactions are ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate), along with oxygen as a byproduct."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch14",
+      "name": "Respiration in Plants",
+      "description": "This chapter details the process of cellular respiration in plants, including glycolysis, the Krebs cycle, and the electron transport system, explaining how energy is released from glucose.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo114.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=cZ-z1g-Vb-0",
+        "notes": "https://byjus.com/biology/respiration-in-plants-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-14-respiration-in-plants/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/respiration-in-plants-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-14/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch14-q1",
+          "type": "mcq",
+          "question": "Glycolysis, the first step of cellular respiration, occurs in the:",
+          "options": ["Mitochondria", "Nucleus", "Cytoplasm", "Chloroplast"],
+          "correctAnswer": "Cytoplasm"
+        },
+        {
+          "id": "bio-ch14-q2",
+          "type": "short-answer",
+          "question": "How many ATP molecules are produced from one molecule of glucose in aerobic respiration?",
+          "correctAnswer": "The net gain of ATP from one molecule of glucose during aerobic respiration is approximately 36 to 38 molecules."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch15",
+      "name": "Plant Growth and Development",
+      "description": "This chapter explores the various aspects of plant growth, including phases of growth, growth rates, and the role of plant growth regulators (hormones) like auxins, gibberellins, and cytokinins.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo115.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=48yGTa_gGgk",
+        "notes": "https://byjus.com/biology/plant-growth-and-development-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-15-plant-growth-and-development/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/plant-growth-and-development-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-15/"
+      },
+      "questions": [
+        {
+          "id": "bio-ch15-q1",
+          "type": "mcq",
+          "question": "Which plant hormone is responsible for apical dominance?",
+          "options": ["Gibberellin", "Cytokinin", "Auxin", "Ethylene"],
+          "correctAnswer": "Auxin"
+        },
+        {
+          "id": "bio-ch15-q2",
+          "type": "short-answer",
+          "question": "What is photoperiodism?",
+          "correctAnswer": "Photoperiodism is the physiological reaction of organisms to the length of day or night. In plants, it influences flowering."
+        }
+      ]
+    },
+    {
+      "id": "bio-ch16",
+      "name": "Digestion and Absorption",
+      "description": "This chapter covers the human digestive system, explaining the process of digestion of food, absorption of nutrients, and the disorders of the digestive system.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo116.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=A_z-Crx-TjY",
+        "notes": "https://byjus.com/biology/digestion-and-absorption-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-16-digestion-and-absorption/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/digestion-and-absorption-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-16/"
+      },
+      "questions": []
+    },
+    {
+      "id": "bio-ch17",
+      "name": "Breathing and Exchange of Gases",
+      "description": "This chapter describes the human respiratory system, the mechanism of breathing, the exchange and transport of gases (oxygen and carbon dioxide), and respiratory disorders.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo117.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=S0-UgXF5P-k",
+        "notes": "https://byjus.com/biology/breathing-and-exchange-of-gases-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-17-breathing-and-exchange-of-gases/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/breathing-and-exchange-of-gases-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-17/"
+      },
+      "questions": []
+    },
+    {
+      "id": "bio-ch18",
+      "name": "Body Fluids and Circulation",
+      "description": "This chapter explains the composition and functions of blood and lymph, the structure and working of the human heart, the cardiac cycle, and disorders of the circulatory system.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo118.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=3-M-Q1y-i-U",
+        "notes": "https://byjus.com/biology/body-fluids-and-circulation-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-18-body-fluids-and-circulation/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/body-fluids-and-circulation-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-18/"
+      },
+      "questions": []
+    },
+    {
+      "id": "bio-ch19",
+      "name": "Excretory Products and their Elimination",
+      "description": "This chapter details the modes of excretion in different animals, the human excretory system (kidneys), the mechanism of urine formation, and the regulation of kidney function.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo119.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=D4_Ax-4mZ3Y",
+        "notes": "https://byjus.com/biology/excretory-products-and-their-elimination-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-19-excretory-products-and-their-elimination/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/excretory-products-and-their-elimination-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-19/"
+      },
+      "questions": []
+    },
+    {
+      "id": "bio-ch20",
+      "name": "Locomotion and Movement",
+      "description": "This chapter explains the types of movement in organisms, the structure of muscles and the mechanism of muscle contraction, the skeletal system, joints, and disorders of the muscular and skeletal systems.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo120.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=e_MNEv5-s-k",
+        "notes": "https://byjus.com/biology/locomotion-and-movement-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-20-locomotion-and-movement/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/locomotion-and-movement-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-20/"
+      },
+      "questions": []
+    },
+    {
+      "id": "bio-ch21",
+      "name": "Neural Control and Coordination",
+      "description": "This chapter covers the human nervous system, including the structure of neurons, the generation and conduction of nerve impulses, the central nervous system, and the mechanism of reflex action.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo121.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=x_u0f8x-yFc",
+        "notes": "https://byjus.com/biology/neural-control-and-coordination-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-21-neural-control-and-coordination/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/neural-control-and-coordination-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-21/"
+      },
+      "questions": []
+    },
+    {
+      "id": "bio-ch22",
+      "name": "Chemical Coordination and Integration",
+      "description": "This chapter describes the endocrine system, detailing the various endocrine glands, the hormones they secrete, their functions, and the disorders that arise due to hormonal imbalances.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/BIOLOGY-EM-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kebo122.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=yY1rP6yZ_3E",
+        "notes": "https://byjus.com/biology/chemical-coordination-and-integration-class-11-notes/",
+        "practiceQuestions": "https://www.byjus.com/biology/important-questions-for-class-11-biology-chapter-22-chemical-coordination-and-integration/",
+        "previousYearQuestions": "https://byjus.com/neet-questions/chemical-coordination-and-integration-previous-year-questions-with-solutions/",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-biology-chapter-22/"
+      },
+      "questions": []
+    }
+  ]
+}

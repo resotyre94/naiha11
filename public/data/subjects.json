@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "BeakerIcon",
+    "dataUrl": "/data/physics.json"
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "icon": "FireIcon",
+    "dataUrl": "/data/chemistry.json"
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "icon": "SparklesIcon",
+    "dataUrl": "/data/biology.json"
+  },
+  {
+    "id": "math",
+    "name": "Math",
+    "icon": "CalculatorIcon",
+    "dataUrl": "/data/math.json"
+  },
+  {
+    "id": "english",
+    "name": "English",
+    "icon": "LanguageIcon",
+    "dataUrl": "/data/english.json"
+  },
+  {
+    "id": "malayalam",
+    "name": "Malayalam",
+    "icon": "ChatBubbleLeftRightIcon",
+    "dataUrl": "/data/malayalam.json"
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "icon": "ComputerDesktopIcon",
+    "dataUrl": "/data/computer-science.json"
+  }
+]

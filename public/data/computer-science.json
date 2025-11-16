@@ -1,0 +1,56 @@
+
+{
+  "id": "computer-science",
+  "name": "Computer Science",
+  "icon": "ComputerDesktopIcon",
+  "chapters": [
+    {
+      "id": "cs-ch1",
+      "name": "The Discipline of Computing",
+      "studyLinks": [
+        { "name": "NCERT Chapter PDF", "url": "https://ncert.nic.in/textbook.php?kecs1=0-13", "type": "ncert" },
+        { "name": "Generations of Computers", "url": "https://hsslive.co.in/hsslive-plus-one-computer-science-notes/", "type": "kerala-resource" },
+        { "name": "Input/Output Devices (Video)", "url": "https://www.youtube.com/watch?v=Ym41PAkFq50", "type": "youtube" }
+      ],
+      "questions": [
+        {
+          "id": "cs-q1",
+          "type": "mcq",
+          "question": "Who is known as the father of the computer?",
+          "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Bill Gates"],
+          "correctAnswer": "Charles Babbage"
+        },
+        {
+          "id": "cs-q2",
+          "type": "short-answer",
+          "question": "What is the difference between hardware and software? Give an example of each.",
+          "correctAnswer": "Hardware refers to the physical components of a computer system, like the CPU, monitor, and keyboard. Software is a set of instructions or programs that tells the hardware what to do, such as an operating system (e.g., Windows) or an application (e.g., Microsoft Word)."
+        }
+      ]
+    },
+    {
+      "id": "cs-ch2",
+      "name": "Data Representation",
+      "studyLinks": [
+        { "name": "NCERT Chapter PDF", "url": "https://ncert.nic.in/textbook/pdf/kecs102.pdf", "type": "ncert" },
+        { "name": "Number System Conversions", "url": "https://byjus.com/maths/number-system-conversion/", "type": "kerala-resource" },
+        { "name": "Binary to Decimal Conversion (Video)", "url": "https://www.youtube.com/watch?v=rsxT4FfRBAk", "type": "youtube" }
+      ],
+      "questions": [
+        {
+          "id": "cs-q3",
+          "type": "mcq",
+          "question": "The binary equivalent of the decimal number 10 is:",
+          "options": ["1010", "1100", "1001", "1011"],
+          "correctAnswer": "1010"
+        },
+        {
+          "id": "cs-q4",
+          "type": "short-answer",
+          "question": "What is ASCII?",
+          "correctAnswer": "ASCII (American Standard Code for Information Interchange) is a character encoding standard for electronic communication. It represents text in computers, telecommunications equipment, and other devices. Each character is assigned a unique number from 0 to 127."
+        }
+      ]
+    }
+  ]
+}
