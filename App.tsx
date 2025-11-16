@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import SubjectPage from './pages/SubjectPage';
 import ExamPage from './pages/ExamPage';
 import AnalysisPage from './pages/AnalysisPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/analysis" element={<AnalysisPage />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </HashRouter>
   );

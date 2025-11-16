@@ -34,7 +34,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">Welcome, 11th Grader!</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">Welcome, Naiha's Plus One Study Tool!</h1>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Your personal guide to mastering the Kerala & NCERT syllabus.</p>
       </div>
       
