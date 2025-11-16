@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Subject, StudyLinks, SubjectListItem, Chapter } from '../types';
@@ -66,6 +65,12 @@ const SubjectPage: React.FC = () => {
 
   return (
     <div>
+       <div className="mb-6">
+        <Link to="/" className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline transition-colors">
+            <Icon name="ArrowLeftIcon" className="h-4 w-4 mr-2" />
+            All Subjects
+        </Link>
+      </div>
       <div className="flex items-center mb-8 border-b border-gray-200 dark:border-gray-700 pb-4">
         <Icon name={subject.icon} className="h-10 w-10 text-indigo-600 dark:text-indigo-400 mr-4"/>
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{subject.name}</h1>
@@ -82,27 +87,26 @@ const SubjectPage: React.FC = () => {
               
               <div className="mb-6">
                 <h3 className="text-lg font-medium mb-3 text-gray-700 dark:text-gray-300">Study Resources</h3>
-                <ul className="space-y-1">
+                <div className="grid grid-cols-2 gap-2">
                   {(Object.keys(linkMetadata) as Array<keyof StudyLinks>).map((key) => {
                       const url = chapter.studyLinks[key];
                       const meta = linkMetadata[key];
                       if (!url) return null;
                       return (
-                        <li key={key}>
                           <a
+                            key={key}
                             href={url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center p-3 -mx-3 rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                            className="flex items-center p-2 rounded-lg transition-colors bg-gray-50 dark:bg-gray-700/50 hover:bg-indigo-100 dark:hover:bg-gray-700 group"
                           >
-                            <Icon name={meta.icon} className="h-6 w-6 mr-4 text-indigo-500 dark:text-indigo-400"/>
-                            <span className="text-gray-700 dark:text-gray-300 font-medium">{meta.name}</span>
-                            <Icon name="ArrowTopRightOnSquareIcon" className="h-5 w-5 ml-auto text-gray-400 dark:text-gray-500 group-hover:text-indigo-500 transition-colors"/>
+                            <Icon name={meta.icon} className="h-5 w-5 mr-2 text-indigo-500 dark:text-indigo-400 flex-shrink-0"/>
+                            <span className="text-sm font-medium text-gray-800 dark:text-gray-200 flex-grow truncate pr-2">{meta.name}</span>
+                            <Icon name="ArrowTopRightOnSquareIcon" className="h-4 w-4 ml-auto text-gray-400 dark:text-gray-500 group-hover:text-indigo-500 transition-colors flex-shrink-0"/>
                           </a>
-                        </li>
                       );
                   })}
-                </ul>
+                </div>
               </div>
 
               <div className="text-right">

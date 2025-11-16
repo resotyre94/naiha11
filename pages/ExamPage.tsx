@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Subject, Chapter, Question, QuestionType, UserAnswer, SubjectListItem } from '../types';
@@ -137,6 +136,27 @@ const ExamPage: React.FC = () => {
 
     if (loading) return <Loader />;
     if (!chapter) return <div className="text-center">Exam not found.</div>;
+    
+    if (chapter.questions.length === 0) {
+        return (
+            <div>
+                <div className="text-center mb-8">
+                    <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{subjectName} - Model Exam</h1>
+                    <p className="text-xl mt-2 text-gray-600 dark:text-gray-300">{chapter.name}</p>
+                </div>
+                <div className="text-center bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
+                    <Icon name="ExclamationTriangleIcon" className="h-12 w-12 mx-auto text-yellow-500 mb-4" />
+                    <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-2">No Questions Yet</h2>
+                    <p className="text-gray-600 dark:text-gray-400 mb-6">
+                        Model exam questions for this chapter are not available at the moment. Please check back later.
+                    </p>
+                    <Link to={`/subject/${subjectId}`} className="px-8 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-lg hover:bg-indigo-700 transition-colors">
+                        Back to Chapters
+                    </Link>
+                </div>
+            </div>
+        );
+    }
     
     const questionsByType = (type: QuestionType) => chapter.questions.filter(q => q.type === type);
 

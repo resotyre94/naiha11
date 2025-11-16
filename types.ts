@@ -1,4 +1,3 @@
-
 export interface StudyLinks {
   scertEbook: string;
   ncertEbook: string;
@@ -54,4 +53,11 @@ export interface ExamAnalysis {
 
 export interface UserAnswer {
     [questionId: string]: string;
+}
+
+export interface GroundingChunk {
+  web?: {
+    uri: string;
+    title: string;
+  };
 }

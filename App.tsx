@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -7,6 +6,7 @@ import SubjectPage from './pages/SubjectPage';
 import ExamPage from './pages/ExamPage';
 import AnalysisPage from './pages/AnalysisPage';
 import Footer from './components/Footer';
+import AskPage from './pages/AskPage';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
             <Route path="/subject/:subjectId" element={<SubjectPage />} />
             <Route path="/exam/:subjectId/:chapterId" element={<ExamPage />} />
             <Route path="/analysis" element={<AnalysisPage />} />
+            <Route path="/ask" element={<AskPage />} />
           </Routes>
         </main>
         <Footer />

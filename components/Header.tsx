@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -21,6 +20,18 @@ const Header: React.FC = () => {
             }
           >
             Dashboard
+          </NavLink>
+          <NavLink
+            to="/ask"
+            className={({ isActive }) =>
+              `text-base font-medium transition-colors ${
+                isActive
+                  ? 'text-indigo-600 dark:text-indigo-400'
+                  : 'text-gray-600 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400'
+              }`
+            }
+          >
+            Ask AI Tutor
           </NavLink>
           <NavLink
             to="/analysis"
