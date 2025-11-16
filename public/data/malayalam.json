@@ -1,4 +1,3 @@
-
 {
   "id": "malayalam",
   "name": "Malayalam",
@@ -6,34 +5,46 @@
   "chapters": [
     {
       "id": "mal-ch1",
-      "name": "യൂണിറ്റ് 1: സൗന്ദര്യലഹരി",
-      "studyLinks": [
-        { "name": "SCERT Textbook", "url": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MALAYALAM-I-min.pdf", "type": "kerala-resource" },
-        { "name": "കാവ്യാലാപനം - സൗന്ദര്യലഹരി", "url": "https://www.youtube.com/watch?v=F_7xK-39_i0", "type": "youtube" }
-      ],
+      "name": "യൂണിറ്റ് 1: സൗന്ദര്യലഹരി (Waves of Beauty)",
+      "description": "This unit explores the aesthetic appreciation of nature and human relationships through classic poetry and prose, fostering a deeper connection with literary art.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MALAYALAM-I-min.pdf",
+        "ncertEbook": "",
+        "videoLessons": "https://www.youtube.com/watch?v=F_7xK-39_i0",
+        "notes": "https://hsslive.co.in/plus-one-malayalam-notes/",
+        "practiceQuestions": "https://hsslive.co.in/plus-one-malayalam-model-question-papers-2023/",
+        "previousYearQuestions": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/",
+        "solvedExamples": "https://www.apluseducare.in/2023/03/plus-one-malayalam-focus-area-notes.html"
+      },
       "questions": [
         {
           "id": "mal-q1",
           "type": "mcq",
-          "question": "'സൗന്ദര്യലഹരി' എന്ന കൃതി രചിച്ചത് ആര്?",
-          "options": ["കുമാരനാശാൻ", "വള്ളത്തോൾ", "ചങ്ങമ്പുഴ", "ശങ്കരാചാര്യർ"],
-          "correctAnswer": "ശങ്കരാചാര്യർ"
+          "question": "'പ്രിയദർശിനി' എന്ന കവിത എഴുതിയതാര്?",
+          "options": ["ജി. ശങ്കരക്കുറുപ്പ്", "വൈലോപ്പിള്ളി ശ്രീധരമേനോൻ", "ചങ്ങമ്പുഴ കൃഷ്ണപിള്ള", "ബാലാമണിയമ്മ"],
+          "correctAnswer": "ജി. ശങ്കരക്കുറുപ്പ്"
         },
         {
           "id": "mal-q2",
           "type": "short-answer",
-          "question": "'പ്രിയദർശിനി' എന്ന കവിതയുടെ ആശയം ചുരുക്കി എഴുതുക.",
-          "correctAnswer": "പ്രകൃതി സൗന്ദര്യത്തെയും മനുഷ്യനും പ്രകൃതിയും തമ്മിലുള്ള അഭേദ്യമായ ബന്ധത്തെയും കുറിച്ചാണ് 'പ്രിയദർശിനി' എന്ന കവിത ചർച്ച ചെയ്യുന്നത്. കവി പ്രകൃതിയെ ഒരു സുഹൃത്തായും വഴികാട്ടിയായും കാണുന്നു."
+          "question": "സൗന്ദര്യലഹരിയിലെ പ്രധാന ആശയം എന്താണ്?",
+          "correctAnswer": "പ്രകൃതിയുടെയും കലയുടെയും സൗന്ദര്യം മനുഷ്യജീവിതത്തിൽ ചെലുത്തുന്ന സ്വാധീനത്തെക്കുറിച്ചും ആന്തരിക സന്തോഷം നൽകുന്നതിനെക്കുറിച്ചും ഈ യൂണിറ്റ് ചർച്ച ചെയ്യുന്നു."
         }
       ]
     },
     {
       "id": "mal-ch2",
-      "name": "യൂണിറ്റ് 2: അഗ്നിച്ചിറകുകൾ",
-      "studyLinks": [
-        { "name": "SCERT Textbook", "url": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MALAYALAM-I-min.pdf", "type": "kerala-resource" },
-        { "name": "എ.പി.ജെ. അബ്ദുൾ കലാം - ജീവിതരേഖ", "url": "https://www.youtube.com/watch?v=e5kp02_-abM", "type": "youtube" }
-      ],
+      "name": "യൂണിറ്റ് 2: ഓർമ്മയുടെ ജാലകം (Window of Memory)",
+      "description": "This unit delves into autobiographical writings and stories that reflect on personal experiences, history, and social realities, encouraging introspection and empathy.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MALAYALAM-I-min.pdf",
+        "ncertEbook": "",
+        "videoLessons": "https://www.youtube.com/watch?v=e5kp02_-abM",
+        "notes": "https://hsslive.co.in/plus-one-malayalam-notes/",
+        "practiceQuestions": "https://hsslive.co.in/plus-one-malayalam-model-question-papers-2023/",
+        "previousYearQuestions": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/",
+        "solvedExamples": "https://www.apluseducare.in/2023/03/plus-one-malayalam-focus-area-notes.html"
+      },
       "questions": [
         {
           "id": "mal-q3",
@@ -47,6 +58,51 @@
           "type": "long-answer",
           "question": "ഡോ. എ.പി.ജെ. അബ്ദുൾ കലാമിന്റെ ജീവിതം യുവതലമുറയ്ക്ക് നൽകുന്ന സന്ദേശം എന്ത്?",
           "correctAnswer": "കഠിനാധ്വാനത്തിലൂടെയും നിശ്ചയദാർഢ്യത്തിലൂടെയും ഏതൊരു സാധാരണക്കാരനും ഉന്നതങ്ങളിൽ എത്താൻ കഴിയുമെന്ന സന്ദേശമാണ് ഡോ. എ.പി.ജെ. അബ്ദുൾ കലാമിന്റെ ജീവിതം നൽകുന്നത്. സ്വപ്നം കാണാനും ആ സ്വപ്നങ്ങൾ സാക്ഷാത്കരിക്കാൻ പ്രയത്നിക്കാനും അദ്ദേഹം യുവതലമുറയെ പ്രേരിപ്പിക്കുന്നു."
+        }
+      ]
+    },
+    {
+      "id": "mal-ch3",
+      "name": "യൂണിറ്റ് 3: സ്വപ്നങ്ങൾ, വാക്കുകൾ (Dreams, Words)",
+      "description": "This unit explores the power of dreams and words in shaping society and individuals, featuring works by prominent writers that inspire and provoke thought about our aspirations and expressions.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MALAYALAM-I-min.pdf",
+        "ncertEbook": "",
+        "videoLessons": "https://www.youtube.com/watch?v=D-P_G2LzF-8",
+        "notes": "https://hsslive.co.in/plus-one-malayalam-notes/",
+        "practiceQuestions": "https://hsslive.co.in/plus-one-malayalam-model-question-papers-2023/",
+        "previousYearQuestions": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/",
+        "solvedExamples": "https://www.apluseducare.in/2023/03/plus-one-malayalam-focus-area-notes.html"
+      },
+      "questions": [
+        {
+          "id": "mal-q5",
+          "type": "short-answer",
+          "question": "സാറാ ജോസഫിന്റെ 'പാപത്തറ' എന്ന പാഠം ചർച്ച ചെയ്യുന്ന സാമൂഹിക വിഷയം എന്ത്?",
+          "correctAnswer": "'പാപത്തറ' സ്ത്രീ സമൂഹത്തിൽ നേരിടുന്ന അടിച്ചമർത്തലുകളെയും അനീതികളെയും കുറിച്ച് ശക്തമായി പ്രതിപാദിക്കുന്നു. സ്ത്രീയുടെ സ്വത്വവും അതിജീവനവും ഈ പാഠത്തിന്റെ കേന്ദ്രബിന്ദുവാണ്."
+        }
+      ]
+    },
+    {
+      "id": "mal-ch4",
+      "name": "യൂണിറ്റ് 4: ചിരിയും ചിന്തയും (Laughter and Thought)",
+      "description": "This unit focuses on satire and humor in Malayalam literature, presenting pieces that entertain while offering sharp social commentary on contemporary issues.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/MALAYALAM-II-min.pdf",
+        "ncertEbook": "",
+        "videoLessons": "https://www.youtube.com/watch?v=r0wI4KxJ5sA",
+        "notes": "https://hsslive.co.in/plus-one-malayalam-notes/",
+        "practiceQuestions": "https://hsslive.co.in/plus-one-malayalam-model-question-papers-2023/",
+        "previousYearQuestions": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/",
+        "solvedExamples": "https://www.apluseducare.in/2023/03/plus-one-malayalam-focus-area-notes.html"
+      },
+      "questions": [
+        {
+          "id": "mal-q6",
+          "type": "mcq",
+          "question": "മലയാളത്തിലെ പ്രമുഖനായ ഹാസ്യസാഹിത്യകാരൻ ആരാണ്?",
+          "options": ["എം.ടി. വാസുദേവൻ നായർ", "ബഷീർ", "സഞ്ജയൻ", "ഒ.വി. വിജയൻ"],
+          "correctAnswer": "സഞ്ജയൻ"
         }
       ]
     }

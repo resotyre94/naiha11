@@ -82,21 +82,22 @@ const SubjectPage: React.FC = () => {
               
               <div className="mb-6">
                 <h3 className="text-lg font-medium mb-3 text-gray-700 dark:text-gray-300">Study Resources</h3>
-                <ul className="space-y-2">
+                <ul className="space-y-1">
                   {(Object.keys(linkMetadata) as Array<keyof StudyLinks>).map((key) => {
                       const url = chapter.studyLinks[key];
                       const meta = linkMetadata[key];
                       if (!url) return null;
                       return (
-                        <li key={key} className="flex items-center">
-                          <Icon name={meta.icon} className="h-5 w-5 mr-3 text-gray-500 dark:text-gray-400"/>
-                          <a 
-                            href={url} 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 transition-colors"
+                        <li key={key}>
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center p-3 -mx-3 rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-700 group"
                           >
-                            {meta.name}
+                            <Icon name={meta.icon} className="h-6 w-6 mr-4 text-indigo-500 dark:text-indigo-400"/>
+                            <span className="text-gray-700 dark:text-gray-300 font-medium">{meta.name}</span>
+                            <Icon name="ArrowTopRightOnSquareIcon" className="h-5 w-5 ml-auto text-gray-400 dark:text-gray-500 group-hover:text-indigo-500 transition-colors"/>
                           </a>
                         </li>
                       );

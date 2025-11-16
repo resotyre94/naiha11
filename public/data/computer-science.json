@@ -1,4 +1,3 @@
-
 {
   "id": "computer-science",
   "name": "Computer Science",
@@ -7,11 +6,16 @@
     {
       "id": "cs-ch1",
       "name": "The Discipline of Computing",
-      "studyLinks": [
-        { "name": "NCERT Chapter PDF", "url": "https://ncert.nic.in/textbook.php?kecs1=0-13", "type": "ncert" },
-        { "name": "Generations of Computers", "url": "https://hsslive.co.in/hsslive-plus-one-computer-science-notes/", "type": "kerala-resource" },
-        { "name": "Input/Output Devices (Video)", "url": "https://www.youtube.com/watch?v=Ym41PAkFq50", "type": "youtube" }
-      ],
+      "description": "This chapter introduces the history of computing, from early calculating devices to modern computers. It covers the generations of computers and the fundamental concepts of hardware, software, and firmware.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/XI-CS-EM.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kecs101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=Ym41PAkFq50",
+        "notes": "https://hsslive.co.in/hsslive-plus-one-computer-science-notes/",
+        "practiceQuestions": "https://www.examveda.com/computer-fundamentals/practice-mcq-question-on-introduction-to-computer/",
+        "previousYearQuestions": "https://hsslive.co.in/plus-one-computer-science-previous-question-papers/",
+        "solvedExamples": "https://www.geeksforgeeks.org/introduction-of-computer-fundamentals/"
+      },
       "questions": [
         {
           "id": "cs-q1",
@@ -30,12 +34,17 @@
     },
     {
       "id": "cs-ch2",
-      "name": "Data Representation",
-      "studyLinks": [
-        { "name": "NCERT Chapter PDF", "url": "https://ncert.nic.in/textbook/pdf/kecs102.pdf", "type": "ncert" },
-        { "name": "Number System Conversions", "url": "https://byjus.com/maths/number-system-conversion/", "type": "kerala-resource" },
-        { "name": "Binary to Decimal Conversion (Video)", "url": "https://www.youtube.com/watch?v=rsxT4FfRBAk", "type": "youtube" }
-      ],
+      "name": "Data Representation and Boolean Algebra",
+      "description": "This chapter explores how data is represented inside a computer using various number systems (binary, octal, hexadecimal). It also introduces Boolean Algebra, logic gates, and theorems used in digital circuit design.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/XI-CS-EM.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kecs102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=rsxT4FfRBAk",
+        "notes": "https://hsslive.co.in/plus-one-computer-science-chapter-2-data-representation-and-boolean-algebra/",
+        "practiceQuestions": "https://www.geeksforgeeks.org/quiz-on-number-system-and-their-conversions/",
+        "previousYearQuestions": "https://hsslive.co.in/plus-one-computer-science-previous-question-papers/",
+        "solvedExamples": "https://www.toppr.com/guides/computer-science/data-representation/number-system/"
+      },
       "questions": [
         {
           "id": "cs-q3",
@@ -47,10 +56,126 @@
         {
           "id": "cs-q4",
           "type": "short-answer",
-          "question": "What is ASCII?",
-          "correctAnswer": "ASCII (American Standard Code for Information Interchange) is a character encoding standard for electronic communication. It represents text in computers, telecommunications equipment, and other devices. Each character is assigned a unique number from 0 to 127."
+          "question": "Which logic gate produces a high output (1) only when all its inputs are high?",
+          "correctAnswer": "The AND gate."
         }
       ]
+    },
+    {
+        "id": "cs-ch3",
+        "name": "Components of the Computer System",
+        "description": "This chapter details the functional units of a computer system, including the Central Processing Unit (CPU) with its ALU and CU, memory hierarchy (RAM, ROM, Cache), input/output devices, and storage devices.",
+        "studyLinks": {
+            "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/XI-CS-EM.pdf",
+            "ncertEbook": "https://ncert.nic.in/textbook/pdf/kecs103.pdf",
+            "videoLessons": "https://www.youtube.com/watch?v=Itj4E--B62I",
+            "notes": "https://hsslive.co.in/plus-one-computer-science-chapter-3-components-of-the-computer-system/",
+            "practiceQuestions": "https://www.examveda.com/computer-fundamentals/practice-mcq-question-on-computer-hardware/",
+            "previousYearQuestions": "https://hsslive.co.in/plus-one-computer-science-previous-question-papers/",
+            "solvedExamples": "https://www.geeksforgeeks.org/components-of-computer/"
+        },
+        "questions": [
+            {
+                "id": "cs-ch3-q1",
+                "type": "mcq",
+                "question": "Which component is known as the 'brain' of the computer?",
+                "options": ["RAM", "Monitor", "CPU", "Hard Disk"],
+                "correctAnswer": "CPU"
+            },
+            {
+                "id": "cs-ch3-q2",
+                "type": "short-answer",
+                "question": "What is the difference between RAM and ROM?",
+                "correctAnswer": "RAM (Random Access Memory) is volatile memory used for temporary storage of data that the CPU is actively using. ROM (Read-Only Memory) is non-volatile memory that stores firmware and boot-up instructions, and its contents cannot be easily changed."
+            }
+        ]
+    },
+    {
+      "id": "cs-ch4",
+      "name": "Introduction to C++ Programming",
+      "description": "This chapter introduces the C++ programming language, covering its basic structure, character set, tokens (keywords, identifiers, literals), and the fundamental concepts of variables and data types.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/XI-CS-EM.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kecs106.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+        "notes": "https://hsslive.co.in/plus-one-computer-science-chapter-5-introduction-to-c/",
+        "practiceQuestions": "https://www.sanfoundry.com/cpp-mcqs-basics/",
+        "previousYearQuestions": "https://hsslive.co.in/plus-one-computer-science-previous-question-papers/",
+        "solvedExamples": "https://www.w3schools.com/cpp/cpp_intro.asp"
+      },
+      "questions": [
+        {
+          "id": "cs-ch4-q1",
+          "type": "mcq",
+          "question": "Which of the following is a valid keyword in C++?",
+          "options": ["integer", "string", "main", "int"],
+          "correctAnswer": "int"
+        },
+        {
+          "id": "cs-ch4-q2",
+          "type": "short-answer",
+          "question": "What is the purpose of a semicolon (;) in a C++ statement?",
+          "correctAnswer": "In C++, the semicolon is a statement terminator. It indicates the end of one logical expression or instruction."
+        }
+      ]
+    },
+    {
+        "id": "cs-ch5",
+        "name": "Data Types and Operators",
+        "description": "This chapter details the fundamental data types in C++ (int, char, float, double, void), modifiers (signed, unsigned), and various operators including arithmetic, relational, logical, and assignment.",
+        "studyLinks": {
+            "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/XI-CS-EM.pdf",
+            "ncertEbook": "https://ncert.nic.in/textbook/pdf/kecs107.pdf",
+            "videoLessons": "https://www.youtube.com/watch?v=EAR7k-n_L4Q",
+            "notes": "https://hsslive.co.in/plus-one-computer-science-chapter-6-data-types-and-operators/",
+            "practiceQuestions": "https://www.sanfoundry.com/cpp-mcqs-data-types-operators/",
+            "previousYearQuestions": "https://hsslive.co.in/plus-one-computer-science-previous-question-papers/",
+            "solvedExamples": "https://www.geeksforgeeks.org/c-data-types/"
+        },
+        "questions": [
+            {
+                "id": "cs-ch5-q1",
+                "type": "mcq",
+                "question": "What operator is used for finding the remainder of a division?",
+                "options": ["/", "*", "%", "//"],
+                "correctAnswer": "%"
+            },
+            {
+                "id": "cs-ch5-q2",
+                "type": "short-answer",
+                "question": "What is type casting in C++?",
+                "correctAnswer": "Type casting is a way to convert a variable from one data type to another. For example, converting a `float` to an `int` to truncate the decimal part."
+            }
+        ]
+    },
+    {
+        "id": "cs-ch6",
+        "name": "Control Statements",
+        "description": "This chapter explains how to control the flow of execution in a C++ program using decision-making statements (if, if-else, switch) and looping/iterative statements (for, while, do-while).",
+        "studyLinks": {
+            "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/XI-CS-EM.pdf",
+            "ncertEbook": "https://ncert.nic.in/textbook/pdf/kecs108.pdf",
+            "videoLessons": "https://www.youtube.com/watch?v=cyB3g82K7yA",
+            "notes": "https://hsslive.co.in/plus-one-computer-science-chapter-7-control-statements/",
+            "practiceQuestions": "https://www.sanfoundry.com/cpp-mcqs-if-else/",
+            "previousYearQuestions": "https://hsslive.co.in/plus-one-computer-science-previous-question-papers/",
+            "solvedExamples": "https://www.w3schools.com/cpp/cpp_conditions.asp"
+        },
+        "questions": [
+            {
+                "id": "cs-ch6-q1",
+                "type": "mcq",
+                "question": "Which loop is guaranteed to execute at least once?",
+                "options": ["for", "while", "do-while", "if"],
+                "correctAnswer": "do-while"
+            },
+            {
+                "id": "cs-ch6-q2",
+                "type": "short-answer",
+                "question": "What is the purpose of the 'break' statement in a switch case?",
+                "correctAnswer": "The 'break' statement is used to terminate the switch block. Without it, execution would 'fall through' to the next case, which is usually not the intended behavior."
+            }
+        ]
     }
   ]
 }

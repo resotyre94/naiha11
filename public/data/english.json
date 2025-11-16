@@ -1,4 +1,3 @@
-
 {
   "id": "english",
   "name": "English",
@@ -6,49 +5,155 @@
   "chapters": [
     {
       "id": "eng-ch1",
-      "name": "Unit 1: Glimpses of Greatness",
-      "studyLinks": [
-        { "name": "NCERT Textbook 'Hornbill'", "url": "https://ncert.nic.in/textbook.php?kehb1=0-5", "type": "ncert" },
-        { "name": "Tenses Rules Chart", "url": "https://www.apluseducare.in/2021/08/plus-one-english-notes-pdf.html", "type": "kerala-resource" },
-        { "name": "Reported Speech Explained (Video)", "url": "https://www.youtube.com/watch?v=J34a4T5aWq4", "type": "youtube" }
-      ],
+      "name": "The Portrait of a Lady (Prose)",
+      "description": "A touching story by Khushwant Singh that beautifully captures the relationship between the author and his grandmother, highlighting themes of love, companionship, and the passage of time.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/ENGLISH-I-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kehb101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=Jg2mAnLzSgM",
+        "notes": "https://www.learncbse.in/the-portrait-of-a-lady-class-11-notes/",
+        "practiceQuestions": "https://www.learncbse.in/important-questions-for-class-11-english-hornbill-chapter-1/",
+        "previousYearQuestions": "https://www.selfstudys.com/books/important-questions/cbse/class-11/english/the-portrait-of-a-lady/5856",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-english-hornbill-chapter-1/"
+      },
       "questions": [
         {
-          "id": "eng-q1",
+          "id": "eng-ch1-q1",
           "type": "mcq",
-          "question": "Choose the correct form of the verb: The earth ___ around the sun.",
-          "options": ["move", "moves", "moved", "is moving"],
-          "correctAnswer": "moves"
+          "question": "What was the 'happiest half-hour of the day' for the grandmother?",
+          "options": ["Praying in the temple", "Reading scriptures", "Feeding the sparrows", "Talking to the author"],
+          "correctAnswer": "Feeding the sparrows"
         },
         {
-          "id": "eng-q2",
+          "id": "eng-ch1-q2",
           "type": "short-answer",
-          "question": "Change the following sentence into passive voice: 'She wrote a letter.'",
-          "correctAnswer": "A letter was written by her."
+          "question": "Describe the author's relationship with his grandmother in the village.",
+          "correctAnswer": "In the village, the author and his grandmother were constant companions. She would wake him up, get him ready for school, and accompany him. While he studied, she read scriptures in the temple attached to the school."
         }
       ]
     },
     {
       "id": "eng-ch2",
-      "name": "Unit 2: The Saga of Progress",
-      "studyLinks": [
-        { "name": "Poem 'The Voice of the Rain'", "url": "https://ncert.nic.in/textbook/pdf/kehb103.pdf", "type": "ncert" },
-        { "name": "Figures of Speech Guide", "url": "https://literarydevices.net/", "type": "kerala-resource" },
-        { "name": "Letter Writing Format (Video)", "url": "https://www.youtube.com/watch?v=33-bMv-eTj4", "type": "youtube" }
-      ],
+      "name": "A Photograph (Poem)",
+      "description": "A poignant poem by Shirley Toulson where she looks at an old photograph of her mother's childhood. It explores themes of memory, loss, and the transient nature of human life compared to the permanence of nature.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/ENGLISH-I-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kehb101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=J9yGa2t4xJ4",
+        "notes": "https://www.learncbse.in/a-photograph-class-11-notes/",
+        "practiceQuestions": "https://www.learncbse.in/important-questions-for-class-11-english-hornbill-poem-1-a-photograph/",
+        "previousYearQuestions": "https://www.vedantu.com/cbse/important-questions-class-11-english-hornbill-poem-1",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-english-hornbill-poem-1-a-photograph/"
+      },
       "questions": [
         {
-          "id": "eng-q3",
+          "id": "eng-ch2-q1",
           "type": "mcq",
-          "question": "Identify the figure of speech in 'The wind whispered through the trees.'",
-          "options": ["Metaphor", "Simile", "Personification", "Hyperbole"],
-          "correctAnswer": "Personification"
+          "question": "What does the word 'cardboard' denote in the poem?",
+          "options": ["A frame", "A box", "The photograph", "A piece of paper"],
+          "correctAnswer": "The photograph"
         },
         {
-          "id": "eng-q4",
-          "type": "long-answer",
-          "question": "Write a short paragraph on the central idea of the poem 'A Photograph' by Shirley Toulson.",
-          "correctAnswer": "The poem 'A Photograph' by Shirley Toulson reflects on the themes of loss, memory, and the transience of life. The poet looks at an old photograph of her mother's childhood sea holiday and reminisces about her mother's laughter. After her mother's death, the photograph becomes a poignant reminder of her loss. The poem beautifully captures the contrast between the permanence of the sea and the fleeting nature of human life."
+          "id": "eng-ch2-q2",
+          "type": "short-answer",
+          "question": "What does the poet mean by 'Its silence silences'?",
+          "correctAnswer": "This phrase refers to the profound silence and sense of loss the poet feels after her mother's death. The silence of the photograph (representing the past) and the silence of her mother's absence makes the poet speechless with grief."
+        }
+      ]
+    },
+    {
+      "id": "eng-ch3",
+      "name": "We're Not Afraid to Die... if We Can All Be Together (Prose)",
+      "description": "An adventurous account by Gordon Cook and Alan East about a family's perilous sea journey. It highlights themes of courage, perseverance, and the bond of family in the face of overwhelming odds.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/ENGLISH-I-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kehb102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=F3aQ42k3m5Y",
+        "notes": "https://www.vedantu.com/english/class-11-english-hornbill-chapter-2-summary",
+        "practiceQuestions": "https://www.learncbse.in/important-questions-for-class-11-english-hornbill-chapter-2/",
+        "previousYearQuestions": "https://www.selfstudys.com/books/important-questions/cbse/class-11/english/we-re-not-afraid-to-die-if-we-can-all-be-together/5857",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-english-hornbill-chapter-2/"
+      },
+      "questions": [
+        {
+          "id": "eng-ch3-q1",
+          "type": "short-answer",
+          "question": "Who were the two crewmen the narrator hired to help them on their voyage?",
+          "correctAnswer": "The two crewmen were Larry Vigil, an American, and Herb Seigler, a Swiss."
+        }
+      ]
+    },
+    {
+      "id": "eng-ch4",
+      "name": "The Summer of the Beautiful White Horse (Snapshot)",
+      "description": "A story by William Saroyan about two poor Armenian boys, Aram and Mourad, who belong to a tribe known for its honesty. Their love for horses leads them to 'borrow' a beautiful white horse, challenging their values.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/ENGLISH-II-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kesp101.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=2Tvwb2rA1AE",
+        "notes": "https://www.vedantu.com/english/the-summer-of-the-beautiful-white-horse-summary",
+        "practiceQuestions": "https://www.learncbse.in/important-questions-class-11-english-snapshots-chapter-1/",
+        "previousYearQuestions": "https://www.selfstudys.com/books/important-questions/cbse/class-11/english/the-summer-of-the-beautiful-white-horse/5872",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-english-snapshots-chapter-1-the-summer-of-the-beautiful-white-horse/"
+      },
+      "questions": [
+        {
+          "id": "eng-ch4-q1",
+          "type": "mcq",
+          "question": "The Garoghlanian family was famous for its:",
+          "options": ["Wealth", "Honesty", "Courage", "Humor"],
+          "correctAnswer": "Honesty"
+        }
+      ]
+    },
+    {
+      "id": "eng-ch5",
+      "name": "The Laburnum Top (Poem)",
+      "description": "A beautiful poem by Ted Hughes that describes the arrival of a Goldfinch on a silent Laburnum tree. The poem illustrates the wonderful interaction between nature's elements, bringing life and energy to the scene.",
+      "studyLinks": {
+        "scertEbook": "https://scert.kerala.gov.in/wp-content/uploads/2023/05/ENGLISH-I-min.pdf",
+        "ncertEbook": "https://ncert.nic.in/textbook/pdf/kehb102.pdf",
+        "videoLessons": "https://www.youtube.com/watch?v=1Yz-ASWfZiQ",
+        "notes": "https://www.learncbse.in/the-laburnum-top-class-11-notes/",
+        "practiceQuestions": "https://www.learncbse.in/important-questions-for-class-11-english-hornbill-poem-2-the-laburnum-top/",
+        "previousYearQuestions": "https://www.selfstudys.com/books/important-questions/cbse/class-11/english/the-laburnum-top/5868",
+        "solvedExamples": "https://www.learncbse.in/ncert-solutions-for-class-11-english-hornbill-poem-2-the-laburnum-top/"
+      },
+      "questions": [
+        {
+          "id": "eng-ch5-q1",
+          "type": "short-answer",
+          "question": "What is the significance of the laburnum tree in the poem?",
+          "correctAnswer": "The Laburnum tree, initially silent and still, symbolizes a dull or empty existence. It comes to life with the arrival of the goldfinch, representing the vibrancy and energy that relationships and interactions can bring."
+        }
+      ]
+    },
+    {
+      "id": "eng-ch6",
+      "name": "Grammar: Tenses and Reported Speech",
+      "description": "This section covers fundamental grammar rules focusing on the correct usage of tenses to denote time and the transformation of sentences from direct to indirect speech (reported speech).",
+      "studyLinks": {
+        "scertEbook": "https://samagra.kite.kerala.gov.in/files/samagra-resource/uploads/r_7_60e7f772421aa_1625815410.pdf",
+        "ncertEbook": "",
+        "videoLessons": "https://www.youtube.com/watch?v=iTJJ40ZuDTw",
+        "notes": "https://apluseducare.in/2021/08/plus-one-english-notes-pdf.html",
+        "practiceQuestions": "https://www.toppr.com/guides/english/tenses/tenses-mcq/",
+        "previousYearQuestions": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/",
+        "solvedExamples": "https://www.learncbse.in/reported-speech-exercises-for-class-10-9-8-7-6-11-12/"
+      },
+      "questions": [
+        {
+          "id": "eng-ch6-q1",
+          "type": "mcq",
+          "question": "Choose the correct form of the verb: He ___ to the library yesterday.",
+          "options": ["go", "goes", "went", "is going"],
+          "correctAnswer": "went"
+        },
+        {
+          "id": "eng-ch6-q2",
+          "type": "short-answer",
+          "question": "Change into reported speech: He said, 'I am writing a letter.'",
+          "correctAnswer": "He said that he was writing a letter."
         }
       ]
     }

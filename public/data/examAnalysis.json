@@ -1,4 +1,3 @@
-
 {
   "importantChapters": [
     { "chapter": "Laws of Motion (Physics)", "reason": "High weightage in previous years, fundamental concepts." },
@@ -20,8 +19,8 @@
     { "chapter": "Biology - Cell Biology", "percentage": 25 }
   ],
   "modelPapers": [
-    { "name": "Kerala Plus One Model Paper 2023", "url": "https://byjus.com/kerala-board/kerala-plus-one-model-question-papers/", "type": "pdf" },
+    { "name": "Kerala Plus One Model Papers (All Subjects)", "url": "https://hsslive.co.in/dhse-plus-one-model-question-papers/", "type": "pdf" },
     { "name": "Previous Year Question Papers", "url": "https://hsslive.co.in/dhse-plus-one-previous-question-papers-answers/", "type": "pdf" },
-    { "name": "Sample Text-Based Questions", "url": "https://byjus.com/kerala-board/important-questions-for-kerala-plus-one/", "type": "text" }
+    { "name": "Focus Area Based Notes & Questions", "url": "https://www.apluseducare.in/2023/03/plus-one-focus-area-based-notes-study.html", "type": "text" }
   ]
 }
