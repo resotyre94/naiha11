@@ -51,6 +51,11 @@ const AskPage: React.FC = () => {
     }
   };
 
+  const handleFormSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    handleAsk();
+  };
+
   const helplineContacts = [
     { name: 'Ambulance', number: '108', icon: 'TruckIcon' },
     { name: 'Police', number: '112', icon: 'ShieldExclamationIcon' },
@@ -62,28 +67,30 @@ const AskPage: React.FC = () => {
   return (
     <div>
       <div className="text-center mb-10">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">Ask me anyhing</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">Ask me anything</h1>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Get instant help with any question about your Class 11 subjects.</p>
       </div>
 
       <div className="max-w-3xl mx-auto">
-        <div className="relative">
-          <textarea
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="For example: Explain Newton's First Law of Motion..."
-            rows={3}
-            className="w-full p-4 pr-28 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-800 dark:border-gray-600"
-            disabled={isLoading}
-          />
-          <button
-            onClick={handleAsk}
-            disabled={isLoading || !query.trim()}
-            className="absolute top-1/2 right-3 -translate-y-1/2 px-5 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
-          >
-            {isLoading ? 'Asking...' : 'Ask'}
-          </button>
-        </div>
+        <form onSubmit={handleFormSubmit}>
+          <div className="relative">
+            <textarea
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="For example: Explain Newton's First Law of Motion..."
+              rows={3}
+              className="w-full p-4 pr-28 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-800 dark:border-gray-600"
+              disabled={isLoading}
+            />
+            <button
+              type="submit"
+              disabled={isLoading || !query.trim()}
+              className="absolute top-1/2 right-3 -translate-y-1/2 px-5 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+            >
+              {isLoading ? 'Asking...' : 'Ask'}
+            </button>
+          </div>
+        </form>
 
         {isLoading && <Loader />}
 
@@ -100,7 +107,8 @@ const AskPage: React.FC = () => {
               <div className="mt-6 border-t border-gray-200 dark:border-gray-700 pt-4">
                 <h3 className="text-lg font-semibold mb-3 text-gray-700 dark:text-gray-300">Supporting Links</h3>
                 <ul className="space-y-2">
-                  {links.map((chunk, index) => chunk.web && (
+                  {/* FIX: Check for chunk.web.uri to ensure it's defined before rendering the link, making the code type-safe. */}
+                  {links.map((chunk, index) => chunk.web && chunk.web.uri && (
                     <li key={index}>
                       <a 
                         href={chunk.web.uri} 

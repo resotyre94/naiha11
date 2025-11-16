@@ -57,7 +57,8 @@ export interface UserAnswer {
 
 export interface GroundingChunk {
   web?: {
-    uri: string;
-    title: string;
+    // FIX: Made uri and title optional to match the @google/genai library's type definition.
+    uri?: string;
+    title?: string;
   };
 }
