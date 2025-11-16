@@ -11,7 +11,7 @@ import AskPage from './pages/AskPage';
 function App() {
   return (
     <HashRouter>
-      <div className="min-h-screen flex flex-col font-sans text-gray-800 dark:text-gray-200">
+      <div className="min-h-screen flex flex-col font-sans text-[#0A1A22] dark:text-[#FFFFFF]">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <Routes>

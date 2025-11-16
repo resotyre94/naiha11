@@ -66,27 +66,27 @@ const SubjectPage: React.FC = () => {
   return (
     <div>
        <div className="mb-6">
-        <Link to="/" className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline transition-colors">
+        <Link to="/" className="inline-flex items-center text-[#0A1A22] dark:text-[#C9FF66] hover:underline transition-colors">
             <Icon name="ArrowLeftIcon" className="h-4 w-4 mr-2" />
             All Subjects
         </Link>
       </div>
-      <div className="flex items-center mb-8 border-b border-gray-200 dark:border-gray-700 pb-4">
-        <Icon name={subject.icon} className="h-10 w-10 text-indigo-600 dark:text-indigo-400 mr-4"/>
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{subject.name}</h1>
+      <div className="flex items-center mb-8 border-b border-gray-200 dark:border-[#0A1A22] pb-4">
+        <Icon name={subject.icon} className="h-10 w-10 text-[#0A1A22] dark:text-[#C9FF66] mr-4"/>
+        <h1 className="text-4xl font-bold text-[#0A1A22] dark:text-white">{subject.name}</h1>
       </div>
 
       <div className="space-y-6">
         {subject.chapters.map((chapter, index) => (
-          <div key={chapter.id} className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div key={chapter.id} className="bg-[#D8F3E9] dark:bg-[#0A1A22] rounded-lg shadow-md overflow-hidden">
             <div className="p-6">
-              <h2 className="text-2xl font-semibold mb-2 text-gray-800 dark:text-white">
+              <h2 className="text-2xl font-semibold mb-2 text-[#0A1A22] dark:text-white">
                 Chapter {index + 1}: {chapter.name}
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 mb-4">{chapter.description}</p>
+              <p className="text-[#0A1A22]/80 dark:text-[#A7B9C4] mb-4">{chapter.description}</p>
               
               <div className="mb-6">
-                <h3 className="text-lg font-medium mb-3 text-gray-700 dark:text-gray-300">Study Resources</h3>
+                <h3 className="text-lg font-medium mb-3 text-[#0A1A22] dark:text-gray-300">Study Resources</h3>
                 <div className="grid grid-cols-2 gap-2">
                   {(Object.keys(linkMetadata) as Array<keyof StudyLinks>).map((key) => {
                       const url = chapter.studyLinks[key];
@@ -98,11 +98,11 @@ const SubjectPage: React.FC = () => {
                             href={url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center p-2 rounded-lg transition-colors bg-gray-50 dark:bg-gray-700/50 hover:bg-indigo-100 dark:hover:bg-gray-700 group"
+                            className="flex items-center p-2 rounded-lg transition-colors bg-white/50 dark:bg-[#0F2734]/50 hover:bg-[#CFC3FA]/30 dark:hover:bg-[#CFC3FA]/20 group"
                           >
-                            <Icon name={meta.icon} className="h-5 w-5 mr-2 text-indigo-500 dark:text-indigo-400 flex-shrink-0"/>
-                            <span className="text-sm font-medium text-gray-800 dark:text-gray-200 flex-grow truncate pr-2">{meta.name}</span>
-                            <Icon name="ArrowTopRightOnSquareIcon" className="h-4 w-4 ml-auto text-gray-400 dark:text-gray-500 group-hover:text-indigo-500 transition-colors flex-shrink-0"/>
+                            <Icon name={meta.icon} className="h-5 w-5 mr-2 text-[#0A1A22] dark:text-[#CFC3FA] flex-shrink-0"/>
+                            <span className="text-sm font-medium text-[#0A1A22] dark:text-[#FFFFFF] flex-grow truncate pr-2">{meta.name}</span>
+                            <Icon name="ArrowTopRightOnSquareIcon" className="h-4 w-4 ml-auto text-gray-400 dark:text-gray-500 group-hover:text-[#0A1A22] dark:group-hover:text-white transition-colors flex-shrink-0"/>
                           </a>
                       );
                   })}
@@ -112,7 +112,7 @@ const SubjectPage: React.FC = () => {
               <div className="text-right">
                 <Link 
                   to={`/exam/${subjectId}/${chapter.id}`} 
-                  className="inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-transform transform hover:scale-105"
+                  className="inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-[#0A1A22] bg-[#C9FF66] hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#C9FF66] transition-transform transform hover:scale-105"
                 >
                   <Icon name="PencilSquareIcon" className="h-5 w-5 mr-2" />
                   Take Model Exam

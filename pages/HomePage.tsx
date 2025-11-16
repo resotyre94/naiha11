@@ -33,8 +33,8 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">Welcome to My Guidens</h1>
-        <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Your personal guide to mastering the Class 11 Kerala & NCERT syllabus.</p>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-[#0A1A22] dark:text-white">Welcome to Naiha's Guide</h1>
+        <p className="mt-4 text-lg text-[#0A1A22]/80 dark:text-[#A7B9C4]">Your personal guide to mastering the Class 11 Kerala & NCERT syllabus.</p>
       </div>
       
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">

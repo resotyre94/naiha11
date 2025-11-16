@@ -8,17 +8,17 @@ const QuestionCard: React.FC<{ question: Question; userAnswer: string; onAnswerC
     const isCorrect = isSubmitted && userAnswer.toLowerCase() === question.correctAnswer.toLowerCase();
 
     const getBorderColor = () => {
-        if (!isSubmitted) return 'border-gray-200 dark:border-gray-700';
-        return isCorrect ? 'border-green-500' : 'border-red-500';
+        if (!isSubmitted) return 'border-gray-200 dark:border-[#0F2734]';
+        return isCorrect ? 'border-[#D8F3E9]' : 'border-red-500';
     };
 
     return (
-        <div className={`bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-2 ${getBorderColor()}`}>
-            <p className="font-semibold text-lg mb-4 text-gray-800 dark:text-white">{question.question}</p>
+        <div className={`bg-white dark:bg-[#0A1A22] p-6 rounded-lg shadow-md border-2 ${getBorderColor()}`}>
+            <p className="font-semibold text-lg mb-4 text-[#0A1A22] dark:text-white">{question.question}</p>
             {question.type === QuestionType.MCQ && question.options && (
                 <div className="space-y-3">
                     {question.options.map((option, index) => (
-                        <label key={index} className="flex items-center p-3 rounded-md transition-colors hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <label key={index} className="flex items-center p-3 rounded-md transition-colors hover:bg-gray-100 dark:hover:bg-[#0F2734]">
                             <input
                                 type="radio"
                                 name={question.id}
@@ -26,9 +26,9 @@ const QuestionCard: React.FC<{ question: Question; userAnswer: string; onAnswerC
                                 checked={userAnswer === option}
                                 onChange={(e) => onAnswerChange(question.id, e.target.value)}
                                 disabled={isSubmitted}
-                                className="h-4 w-4 text-indigo-600 border-gray-300 focus:ring-indigo-500 disabled:opacity-50"
+                                className="h-4 w-4 text-[#0A1A22] border-gray-300 focus:ring-[#C9FF66] disabled:opacity-50"
                             />
-                            <span className="ml-3 text-gray-700 dark:text-gray-300">{option}</span>
+                            <span className="ml-3 text-[#0A1A22] dark:text-[#A7B9C4]">{option}</span>
                         </label>
                     ))}
                 </div>
@@ -39,17 +39,17 @@ const QuestionCard: React.FC<{ question: Question; userAnswer: string; onAnswerC
                     onChange={(e) => onAnswerChange(question.id, e.target.value)}
                     disabled={isSubmitted}
                     rows={question.type === QuestionType.SHORT_ANSWER ? 3 : 6}
-                    className="w-full mt-2 p-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 focus:ring-indigo-500 focus:border-indigo-500 disabled:opacity-50"
+                    className="w-full mt-2 p-2 border border-gray-300 rounded-md dark:bg-[#0F2734] dark:border-gray-600 focus:ring-[#C9FF66] focus:border-[#C9FF66] disabled:opacity-50"
                 />
             )}
             {isSubmitted && (
-                <div className={`mt-4 p-3 rounded-md ${isCorrect ? 'bg-green-100 dark:bg-green-900/50' : 'bg-red-100 dark:bg-red-900/50'}`}>
+                <div className={`mt-4 p-3 rounded-md ${isCorrect ? 'bg-[#D8F3E9] dark:bg-[#D8F3E9]/10' : 'bg-red-100 dark:bg-red-900/50'}`}>
                     {isCorrect ? (
-                        <p className="text-green-800 dark:text-green-300"><Icon name="CheckCircleIcon" className="h-5 w-5 inline mr-2"/>Correct!</p>
+                        <p className="text-[#0A1A22] dark:text-[#D8F3E9]"><Icon name="CheckCircleIcon" className="h-5 w-5 inline mr-2"/>Correct!</p>
                     ) : (
                          <>
                             <p className="text-red-800 dark:text-red-300"><Icon name="XCircleIcon" className="h-5 w-5 inline mr-2"/>Incorrect.</p>
-                            <p className="text-sm mt-2 text-gray-700 dark:text-gray-300"><strong>Correct Answer:</strong> {question.correctAnswer}</p>
+                            <p className="text-sm mt-2 text-[#0A1A22] dark:text-[#A7B9C4]"><strong>Correct Answer:</strong> {question.correctAnswer}</p>
                          </>
                     )}
                 </div>
@@ -141,16 +141,16 @@ const ExamPage: React.FC = () => {
         return (
             <div>
                 <div className="text-center mb-8">
-                    <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{subjectName} - Model Exam</h1>
-                    <p className="text-xl mt-2 text-gray-600 dark:text-gray-300">{chapter.name}</p>
+                    <h1 className="text-4xl font-bold text-[#0A1A22] dark:text-white">{subjectName} - Model Exam</h1>
+                    <p className="text-xl mt-2 text-[#0A1A22]/80 dark:text-[#A7B9C4]">{chapter.name}</p>
                 </div>
-                <div className="text-center bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
+                <div className="text-center bg-white dark:bg-[#0A1A22] p-8 rounded-lg shadow-md">
                     <Icon name="ExclamationTriangleIcon" className="h-12 w-12 mx-auto text-yellow-500 mb-4" />
-                    <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-2">No Questions Yet</h2>
-                    <p className="text-gray-600 dark:text-gray-400 mb-6">
+                    <h2 className="text-2xl font-semibold text-[#0A1A22] dark:text-white mb-2">No Questions Yet</h2>
+                    <p className="text-[#0A1A22]/80 dark:text-[#A7B9C4] mb-6">
                         Model exam questions for this chapter are not available at the moment. Please check back later.
                     </p>
-                    <Link to={`/subject/${subjectId}`} className="px-8 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-lg hover:bg-indigo-700 transition-colors">
+                    <Link to={`/subject/${subjectId}`} className="px-8 py-3 bg-[#C9FF66] text-[#0A1A22] font-bold rounded-lg shadow-lg hover:bg-opacity-90 transition-colors">
                         Back to Chapters
                     </Link>
                 </div>
@@ -163,13 +163,13 @@ const ExamPage: React.FC = () => {
     return (
         <div>
             <div className="text-center mb-8">
-                <h1 className="text-4xl font-bold text-gray-900 dark:text-white">{subjectName} - Model Exam</h1>
-                <p className="text-xl mt-2 text-gray-600 dark:text-gray-300">{chapter.name}</p>
-                <p className="text-sm mt-1 text-gray-500 dark:text-gray-400">Showing {chapter.questions.length} random questions</p>
+                <h1 className="text-4xl font-bold text-[#0A1A22] dark:text-white">{subjectName} - Model Exam</h1>
+                <p className="text-xl mt-2 text-[#0A1A22]/80 dark:text-[#A7B9C4]">{chapter.name}</p>
+                <p className="text-sm mt-1 text-[#A7B9C4]">{`Showing ${chapter.questions.length} random questions`}</p>
             </div>
             
             {isSubmitted && (
-                 <div className="bg-indigo-100 dark:bg-indigo-900/50 border-l-4 border-indigo-500 text-indigo-800 dark:text-indigo-200 p-4 rounded-md mb-8" role="alert">
+                 <div className="bg-[#D8F3E9] dark:bg-[#0A1A22] border-l-4 border-[#CFC3FA] text-[#0A1A22] dark:text-white p-4 rounded-md mb-8" role="alert">
                     <h2 className="font-bold text-xl">Exam Submitted!</h2>
                     <p className="mt-1">You scored {score} out of {mcqCount} on Multiple Choice Questions. Review your answers below.</p>
                 </div>
@@ -178,7 +178,7 @@ const ExamPage: React.FC = () => {
             <div className="space-y-8">
                 {questionsByType(QuestionType.MCQ).length > 0 && (
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Multiple Choice Questions</h2>
+                        <h2 className="text-2xl font-semibold mb-4 text-[#0A1A22] dark:text-white">Multiple Choice Questions</h2>
                         <div className="space-y-6">
                             {questionsByType(QuestionType.MCQ).map(q => <QuestionCard key={q.id} question={q} userAnswer={userAnswers[q.id]} onAnswerChange={handleAnswerChange} isSubmitted={isSubmitted} />)}
                         </div>
@@ -186,7 +186,7 @@ const ExamPage: React.FC = () => {
                 )}
                 {questionsByType(QuestionType.SHORT_ANSWER).length > 0 && (
                      <section>
-                        <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Short Answer Questions</h2>
+                        <h2 className="text-2xl font-semibold mb-4 text-[#0A1A22] dark:text-white">Short Answer Questions</h2>
                         <div className="space-y-6">
                             {questionsByType(QuestionType.SHORT_ANSWER).map(q => <QuestionCard key={q.id} question={q} userAnswer={userAnswers[q.id]} onAnswerChange={handleAnswerChange} isSubmitted={isSubmitted} />)}
                         </div>
@@ -194,7 +194,7 @@ const ExamPage: React.FC = () => {
                 )}
                 {questionsByType(QuestionType.LONG_ANSWER).length > 0 && (
                      <section>
-                        <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Long Answer Questions</h2>
+                        <h2 className="text-2xl font-semibold mb-4 text-[#0A1A22] dark:text-white">Long Answer Questions</h2>
                          <div className="space-y-6">
                             {questionsByType(QuestionType.LONG_ANSWER).map(q => <QuestionCard key={q.id} question={q} userAnswer={userAnswers[q.id]} onAnswerChange={handleAnswerChange} isSubmitted={isSubmitted} />)}
                         </div>
@@ -204,11 +204,11 @@ const ExamPage: React.FC = () => {
 
             <div className="mt-12 text-center">
                 {!isSubmitted ? (
-                    <button onClick={handleSubmit} className="px-8 py-3 bg-green-600 text-white font-bold rounded-lg shadow-lg hover:bg-green-700 transition-colors">
+                    <button onClick={handleSubmit} className="px-8 py-3 bg-[#C9FF66] text-[#0A1A22] font-bold rounded-lg shadow-lg hover:bg-opacity-90 transition-colors">
                         Submit Exam
                     </button>
                 ) : (
-                    <Link to={`/subject/${subjectId}`} className="px-8 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-lg hover:bg-indigo-700 transition-colors">
+                    <Link to={`/subject/${subjectId}`} className="px-8 py-3 bg-[#C9FF66] text-[#0A1A22] font-bold rounded-lg shadow-lg hover:bg-opacity-90 transition-colors">
                         Back to Chapters
                     </Link>
                 )}

@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect } from 'react';
 import { ExamAnalysis } from '../types';
 import Loader from '../components/Loader';
@@ -38,60 +39,60 @@ const AnalysisPage: React.FC = () => {
   return (
     <div>
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white">Final Exam Analysis</h1>
-        <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Based on previous 5 years of Kerala Board + NCERT question patterns.</p>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-[#0A1A22] dark:text-white">Final Exam Analysis</h1>
+        <p className="mt-4 text-lg text-[#0A1A22]/80 dark:text-[#A7B9C4]">Based on previous 5 years of Kerala Board + NCERT question patterns.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold mb-4 flex items-center text-gray-800 dark:text-white"><Icon name="StarIcon" className="h-6 w-6 mr-3 text-yellow-500" />Important Chapters</h2>
+        <div className="bg-[#D8F3E9] dark:bg-[#0A1A22] p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4 flex items-center text-[#0A1A22] dark:text-white"><Icon name="StarIcon" className="h-6 w-6 mr-3 text-[#CFC3FA]" />Important Chapters</h2>
           <ul className="space-y-3">
             {analysis.importantChapters.map((item, index) => (
-              <li key={index} className="p-3 bg-gray-50 dark:bg-gray-700/50 rounded-md">
-                <p className="font-semibold text-gray-900 dark:text-gray-100">{item.chapter}</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">{item.reason}</p>
+              <li key={index} className="p-3 bg-white/50 dark:bg-[#0F2734]/50 rounded-md">
+                <p className="font-semibold text-[#0A1A22] dark:text-gray-100">{item.chapter}</p>
+                <p className="text-sm text-[#0A1A22]/80 dark:text-[#A7B9C4]">{item.reason}</p>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold mb-4 flex items-center text-gray-800 dark:text-white"><Icon name="ClipboardDocumentListIcon" className="h-6 w-6 mr-3 text-blue-500"/>Expected Question Types</h2>
+        <div className="bg-[#D8F3E9] dark:bg-[#0A1A22] p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4 flex items-center text-[#0A1A22] dark:text-white"><Icon name="ClipboardDocumentListIcon" className="h-6 w-6 mr-3 text-[#CFC3FA]"/>Expected Question Types</h2>
           <ul className="space-y-3">
             {analysis.questionTypes.map((item, index) => (
-              <li key={index} className="p-3 bg-gray-50 dark:bg-gray-700/50 rounded-md">
-                <p className="font-semibold text-gray-900 dark:text-gray-100">{item.type}</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">{item.description}</p>
+              <li key={index} className="p-3 bg-white/50 dark:bg-[#0F2734]/50 rounded-md">
+                <p className="font-semibold text-[#0A1A22] dark:text-gray-100">{item.type}</p>
+                <p className="text-sm text-[#0A1A22]/80 dark:text-[#A7B9C4]">{item.description}</p>
               </li>
             ))}
           </ul>
         </div>
         
-        <div className="lg:col-span-2 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold mb-4 flex items-center text-gray-800 dark:text-white"><Icon name="ChartPieIcon" className="h-6 w-6 mr-3 text-green-500"/>Chapter Weightage Analysis</h2>
+        <div className="lg:col-span-2 bg-[#D8F3E9] dark:bg-[#0A1A22] p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4 flex items-center text-[#0A1A22] dark:text-white"><Icon name="ChartPieIcon" className="h-6 w-6 mr-3 text-[#CFC3FA]"/>Chapter Weightage Analysis</h2>
           <div className="space-y-4">
             {analysis.weightage.map((item, index) => (
               <div key={index}>
                 <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium text-gray-700 dark:text-gray-300">{item.chapter}</span>
-                  <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{item.percentage}%</span>
+                  <span className="text-base font-medium text-[#0A1A22] dark:text-gray-300">{item.chapter}</span>
+                  <span className="text-sm font-medium text-[#0A1A22] dark:text-gray-300">{item.percentage}%</span>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div className="bg-indigo-600 h-2.5 rounded-full" style={{ width: `${item.percentage}%` }}></div>
+                <div className="w-full bg-[#A7B9C4]/30 rounded-full h-2.5">
+                  <div className="bg-[#C9FF66] h-2.5 rounded-full" style={{ width: `${item.percentage}%` }}></div>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="lg:col-span-2 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold mb-4 flex items-center text-gray-800 dark:text-white"><Icon name="DocumentTextIcon" className="h-6 w-6 mr-3 text-purple-500"/>Model Papers</h2>
+        <div className="lg:col-span-2 bg-[#D8F3E9] dark:bg-[#0A1A22] p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-4 flex items-center text-[#0A1A22] dark:text-white"><Icon name="DocumentTextIcon" className="h-6 w-6 mr-3 text-[#CFC3FA]"/>Model Papers</h2>
           <ul className="space-y-3">
              {analysis.modelPapers.map((paper, index) => (
-                <li key={index} className="p-3 bg-gray-50 dark:bg-gray-700/50 rounded-md flex justify-between items-center">
-                    <span className="font-medium text-gray-800 dark:text-gray-200">{paper.name}</span>
-                    <a href={paper.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 dark:text-indigo-300 dark:bg-indigo-900/50 dark:hover:bg-indigo-900">
+                <li key={index} className="p-3 bg-white/50 dark:bg-[#0F2734]/50 rounded-md flex justify-between items-center">
+                    <span className="font-medium text-[#0A1A22] dark:text-gray-200">{paper.name}</span>
+                    <a href={paper.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-[#0A1A22] bg-[#CFC3FA]/50 hover:bg-[#CFC3FA]/80 dark:text-white dark:bg-[#CFC3FA]/20 dark:hover:bg-[#CFC3FA]/40">
                         <Icon name={paper.type === 'pdf' ? 'ArrowDownTrayIcon' : 'ArrowTopRightOnSquareIcon'} className="h-5 w-5 mr-2"/>
                         {paper.type === 'pdf' ? 'Download' : 'View'}
                     </a>
